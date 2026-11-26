@@ -1,0 +1,14 @@
+{
+  "103": {
+	"body": "tanks/flying-wing/body/animation.json",
+	"turret": "tanks/flying-wing/turret/animation.json"
+  },
+  "113": {
+	"body": "tanks/po/body/animation.json",
+	"turret": "tanks/po/turret/animation.json"
+  },
+  "123": {
+	"body": "tanks/steel/body/animation.json",
+	"turret": "tanks/steel/turret/animation.json"
+  }
+}

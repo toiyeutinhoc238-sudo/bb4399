@@ -1,0 +1,142 @@
+{
+  "cell_size": [
+    150,
+    150
+  ],
+  "evidence": [
+    {
+      "class": "asBasic.tool.CBitmapUtil",
+      "methods": [
+        "splitBitmap",
+        "splitBitmapHandle"
+      ],
+      "sha256": "bc989a4ce238c7091c1f98d3ca66aeb507873f2548760f4f382cbfe8686a456b",
+      "source": "primary/asBasic/tool/CBitmapUtil.as"
+    },
+    {
+      "class": "model.tank.TankComponentExhibitResModel",
+      "methods": [
+        "setBmpList",
+        "getBodyImageList",
+        "getCrenelImage"
+      ],
+      "sha256": "8be1de684a1012de7215b9360a1de5e879c9ce6e1972b5cc5ed4be5729c5d8c1",
+      "source": "primary/model/tank/TankComponentExhibitResModel.as"
+    },
+    {
+      "class": "model.tank.TankImageTool",
+      "methods": [
+        "getMinBmpDataStruct"
+      ],
+      "sha256": "28f9a362968ea1749591b1e4aba81b97506b2613877f96dfdd5f3987615bba4c",
+      "source": "primary/model/tank/TankImageTool.as"
+    },
+    {
+      "class": "asBasic.view.ui.CAnimation",
+      "methods": [
+        "gotoAndPlay",
+        "process"
+      ],
+      "sha256": "f91f99879ce7ca1fd3d4025fbbf212fd54ab4a04101ffacfcc2acc3f06b6a1cb",
+      "source": "primary/asBasic/view/ui/CAnimation.as"
+    }
+  ],
+  "format": "xml_grid_atlas",
+  "frames": [
+    {
+      "empty": false,
+      "index": 0,
+      "page": 0,
+      "pivot": [
+        25,
+        34
+      ],
+      "rect": [
+        1,
+        1,
+        50,
+        61
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 0,
+      "source_rect": [
+        0,
+        0,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        50,
+        41
+      ]
+    }
+  ],
+  "grid": [
+    1,
+    1
+  ],
+  "ignored_partial_edge": [
+    0,
+    0
+  ],
+  "pages": [
+    {
+      "file": "atlas-00.png",
+      "size": [
+        52,
+        63
+      ]
+    }
+  ],
+  "runtime": {
+    "body_attack_boundary": -1,
+    "cannon_autoplay": 0,
+    "cannon_fixed_angle": 0,
+    "cannon_last_cell_first": true,
+    "direction": "round(normalized_angle/45)%8; residual angle rotates body container",
+    "idle_animation": null,
+    "xml_offset": [
+      -75,
+      -75
+    ]
+  },
+  "sampling": "nearest, 1px transparent gutters, no rotation",
+  "schema_version": 1,
+  "source": {
+    "logical": "zh_CN/tank/cannon/gangtiexia03_cannon.png",
+    "mapped": "zh_CN/tank/cannon/2faf0af50998f7906556a3ecafad1cf5.png",
+    "physical": "tank/cannon/2faf0af50998f7906556a3ecafad1cf5.png",
+    "sha256": "040752096c1447bd0501a894fe6515833959e83fbf7d554a8df6ff642adb7ae9"
+  },
+  "timeline": {
+    "clips": [
+      {
+        "frames": [
+          0
+        ],
+        "name": "fire",
+        "return_to_frame": 0
+      }
+    ],
+    "clock": "CAnimation.process callbacks; no fixed FPS in this path",
+    "ticks_per_frame": 1
+  },
+  "xml_row": {
+    "iGridHeight": "150",
+    "iGridWidth": "150",
+    "iOffsetX": "-75",
+    "iOffsetY": "-75",
+    "iReuseA": "103",
+    "iType": "3",
+    "nTemplateId": "5045",
+    "strReuseB": "1",
+    "szImageFile": "gangtiexia03_cannon"
+  }
+}

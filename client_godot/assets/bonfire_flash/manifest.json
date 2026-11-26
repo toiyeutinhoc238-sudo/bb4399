@@ -1,0 +1,770 @@
+{
+  "sources": {
+    "common_middle": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/II_common_grid9_middle_center_jpg_690132558.png",
+      "md5": "fb774bb6aac903fdce52512743dbd8d9"
+    },
+    "II_common_grid9_top_left.png": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/II_common_grid9_top_left.png",
+      "md5": "eb68b26d0f6ec64be49c7a0efba04450"
+    },
+    "II_common_grid9_top_center.png": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/II_common_grid9_top_center.png",
+      "md5": "d4543fc9e5c45174b85e4d3487230d31"
+    },
+    "II_common_grid9_top_right.png": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/II_common_grid9_top_right.png",
+      "md5": "99a1fcb88ff51e58436997c565d3a4b9"
+    },
+    "II_common_grid9_middle_left.png": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/II_common_grid9_middle_left.png",
+      "md5": "69471450e2cb6b56ab89f4f8da75cfa5"
+    },
+    "II_common_grid9_middle_right.png": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/II_common_grid9_middle_right.png",
+      "md5": "4c0c5b237a4be7ef2604096ecfe30c94"
+    },
+    "II_common_grid9_bottom_left.png": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/II_common_grid9_bottom_left.png",
+      "md5": "18948a857a929c3a11f6b8d681579e6a"
+    },
+    "II_common_grid9_bottom_center.png": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/II_common_grid9_bottom_center.png",
+      "md5": "4accc20265cb696ad9ef4d6474d5da1d"
+    },
+    "II_common_grid9_bottom_right.png": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/II_common_grid9_bottom_right.png",
+      "md5": "1c1c5c920ea26c4487de5dff850e3689"
+    },
+    "II_common_grid9_title_big.png": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/II_common_grid9_title_big.png",
+      "md5": "0f1c4110249d54ef95466ef270262739"
+    },
+    "214_II.mxml.act.bonfire.BonfireActFrame__embed_mxml__rez_zh_CN_II_bonfire_img_fire_bk_png_1068186012.png": {
+      "source": "/root/pve59-test/godot-web-tools/flash-mod/ActUIFactory/images/214_II.mxml.act.bonfire.BonfireActFrame__embed_mxml__rez_zh_CN_II_bonfire_img_fire_bk_png_1068186012.png",
+      "md5": "f494eb5a50d58330de708b64fe769f87"
+    },
+    "50_II.mxml.act.bonfire.BonfireActFrame__embed_mxml__rez_zh_CN_II_bonfire_img_reward_bk_png_707822630.png": {
+      "source": "/root/pve59-test/godot-web-tools/flash-mod/ActUIFactory/images/50_II.mxml.act.bonfire.BonfireActFrame__embed_mxml__rez_zh_CN_II_bonfire_img_reward_bk_png_707822630.png",
+      "md5": "4f618cea30b8010189b32fd18d484bbf"
+    },
+    "184_II.mxml.act.bonfire.BonfireActFrame__embed_mxml__rez_zh_CN_II_bonfire_img_fire_info_bk2_png_937532710.png": {
+      "source": "/root/pve59-test/godot-web-tools/flash-mod/ActUIFactory/images/184_II.mxml.act.bonfire.BonfireActFrame__embed_mxml__rez_zh_CN_II_bonfire_img_fire_info_bk2_png_937532710.png",
+      "md5": "9f0cb3b269807dacc968dc96fc2ccb79"
+    },
+    "217_II.mxml.act.bonfire.BonfireActFrame__embed_mxml__rez_zh_CN_II_bonfire_img_title_t_png_1708971674.png": {
+      "source": "/root/pve59-test/godot-web-tools/flash-mod/ActUIFactory/images/217_II.mxml.act.bonfire.BonfireActFrame__embed_mxml__rez_zh_CN_II_bonfire_img_title_t_png_1708971674.png",
+      "md5": "29a8e080b8275fabd540b8bd575bc26b"
+    },
+    "bf_add": {
+      "source": "/root/pve59-test/godot-web-tools/flash-mod/ActUIFactory/images/310_II.mxml.act.bonfire.BonfireActFrame__embed_mxml__rez_zh_CN_II_bonfire_btn_add_fire_t_png_254841402.png",
+      "md5": "880c0bb4ddbdc97e6e6fe8830cd5f4ee"
+    },
+    "bf_award": {
+      "source": "/root/pve59-test/godot-web-tools/flash-mod/ActUIFactory/images/270_II.mxml.act.bonfire.BonfireQuestRender__embed_mxml__rez_zh_CN_II_bonfire_btn_award_t_png_1908882330.png",
+      "md5": "3fa6bbf72289d88be975f430ae08a9bf"
+    },
+    "bf_has_award": {
+      "source": "/root/BangBang-Teddy-main-test/downloaded_assets/e745cc7706fc3785c1c32bd22f03523b.png",
+      "md5": "e745cc7706fc3785c1c32bd22f03523b"
+    },
+    "bf_bar_track": {
+      "source": "/root/pve59-test/godot-web-tools/flash-mod/ActUIFactory/images/273_II.mxml.act.bonfire.BonfireQuestRender__embed_mxml__rez_zh_CN_II_bonfire_img_bar_track_png_568163290.png",
+      "md5": "9d7aab5053aaf45d07ab6d00b6037e64"
+    },
+    "bf_bar_thumb": {
+      "source": "/root/BangBang-Teddy-main-test/downloaded_assets/f24f757fe2a2facb79ba219cb4ae9c0f.png",
+      "md5": "f24f757fe2a2facb79ba219cb4ae9c0f"
+    },
+    "bf_head": {
+      "source": "/root/BangBang-Teddy-main-test/downloaded_assets/b1524a03f75dbe9285860e18e34b6979.png",
+      "md5": "b1524a03f75dbe9285860e18e34b6979"
+    },
+    "bf_head_self": {
+      "source": "/root/BangBang-Teddy-main-test/downloaded_assets/776bc5166942d6203df48ffa2bc25ca4.png",
+      "md5": "776bc5166942d6203df48ffa2bc25ca4"
+    },
+    "bf_close": {
+      "source": "/root/BangBang-Teddy-main-test/downloaded_assets/b4c21a068e3ec7e75a643f6fabf2f972.png",
+      "md5": "cc5d858aea869c2ce977511263b76134"
+    },
+    "bf_rule": {
+      "source": "/root/pve59-test/godot-web-tools/flash-mod/ActUIFactory/images/290_II.mxml.button.InfoBtn__embed_mxml__rez_zh_CN_II_main_btn_tips_png_984025372.png",
+      "md5": "a7fda6be4e863cc6a2b729a276f5827d"
+    },
+    "bf_lobby": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/main_img_bonfire.png",
+      "md5": "a1fe95f93d70571def394c623d356fdf"
+    },
+    "bf_word": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/main_word_bonfire_t.png",
+      "md5": "7e5fa6d511ece6ef86d9622127dd38e5"
+    },
+    "bf_scroll_track": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/II_common_summer_track.png",
+      "md5": "7a4bb74ec9e1a67d052d0c217c0f9428"
+    },
+    "bf_scroll_thumb": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/II_common_summer_thumb.png",
+      "md5": "79d1793ae4bc4ae23de0484c13da49d0"
+    },
+    "bf_scroll_up": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/II_common_summer_up.png",
+      "md5": "73b9d45acd18d4bb9f3db96ed393fddd"
+    },
+    "bf_scroll_down": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/II_common_summer_down.png",
+      "md5": "1c0f7b5bc44139fb02e4627ca52880d4"
+    },
+    "bf_grid50": {
+      "source": "/root/pve59-test/godot-web-tools/hall-as/art/tkall/II_tank_upstar_item_bg.png",
+      "md5": "bf663f5f2344bc8f9e48b5353e2ddf35"
+    }
+  },
+  "FRAME": [
+    824,
+    526
+  ],
+  "PANELS": {
+    "frame": [
+      0,
+      -17
+    ]
+  },
+  "AT": {
+    "boxReward": [
+      86,
+      435.5,
+      330,
+      75
+    ],
+    "btnAddFire": [
+      151,
+      367,
+      134,
+      47
+    ],
+    "headSelf": [
+      55,
+      277,
+      75,
+      75
+    ],
+    "head1": [
+      32,
+      173,
+      75,
+      75
+    ],
+    "head2": [
+      55,
+      67,
+      75,
+      75
+    ],
+    "head3": [
+      304,
+      67,
+      75,
+      75
+    ],
+    "head4": [
+      329,
+      173,
+      75,
+      75
+    ],
+    "head5": [
+      304,
+      277,
+      75,
+      75
+    ],
+    "frmConvert1": [
+      438,
+      307,
+      380,
+      116
+    ],
+    "frmConvert2": [
+      438,
+      408,
+      380,
+      116
+    ],
+    "btnClose": [
+      801,
+      0,
+      23,
+      23
+    ],
+    "btnRule": [
+      776,
+      32,
+      22,
+      22
+    ],
+    "imgBonfire": [
+      94.5,
+      50,
+      247,
+      355
+    ],
+    "lstQuest": [
+      446,
+      119,
+      350,
+      174
+    ],
+    "cimagechecklocal1": [
+      434.5,
+      55,
+      371,
+      461
+    ]
+  },
+  "TEXTS": {
+    "label2": [
+      572,
+      43,
+      200,
+      0,
+      14,
+      "ffffff",
+      1,
+      "r"
+    ],
+    "label1": [
+      620,
+      62,
+      0,
+      0,
+      18,
+      "ffffff",
+      1,
+      "c"
+    ],
+    "txtRule": [
+      446,
+      78,
+      350,
+      0,
+      12,
+      "69b4f3",
+      1,
+      "l"
+    ],
+    "_BonfireActFrame_Text3": [
+      21,
+      449,
+      60,
+      60,
+      16,
+      "ffffff",
+      1,
+      "c"
+    ],
+    "lblFireVal": [
+      218,
+      180,
+      0,
+      0,
+      18,
+      "ffffff",
+      1,
+      "c"
+    ],
+    "_BonfireActFrame_Label4": [
+      218,
+      153,
+      0,
+      0,
+      18,
+      "ffffff",
+      1,
+      "c"
+    ],
+    "lblAwardCnt": [
+      446,
+      94,
+      0,
+      0,
+      14,
+      "ffffff",
+      1,
+      "l"
+    ]
+  },
+  "QUEST": {
+    "cvsBar": [
+      1,
+      23,
+      180,
+      19
+    ],
+    "btnAward": [
+      256,
+      18.5,
+      70,
+      28
+    ],
+    "boxReward": [
+      197,
+      32.5,
+      0,
+      0
+    ],
+    "imgHasAward": [
+      256,
+      11,
+      74,
+      43
+    ],
+    "lblCheckCount": [
+      1,
+      23,
+      192,
+      19,
+      14,
+      "ffffff",
+      1,
+      "c"
+    ]
+  },
+  "FIRE": {
+    "1": {
+      "file": "res://assets/bonfire_flash/swf_fire_1.png",
+      "regions": {
+        "bf_swf_fire_1_00": [
+          2,
+          2,
+          251,
+          359
+        ],
+        "bf_swf_fire_1_01": [
+          255,
+          2,
+          251,
+          359
+        ],
+        "bf_swf_fire_1_02": [
+          508,
+          2,
+          251,
+          359
+        ],
+        "bf_swf_fire_1_03": [
+          761,
+          2,
+          251,
+          359
+        ],
+        "bf_swf_fire_1_04": [
+          1014,
+          2,
+          251,
+          359
+        ],
+        "bf_swf_fire_1_05": [
+          1267,
+          2,
+          251,
+          359
+        ],
+        "bf_swf_fire_1_06": [
+          1520,
+          2,
+          251,
+          359
+        ],
+        "bf_swf_fire_1_07": [
+          1773,
+          2,
+          251,
+          359
+        ],
+        "bf_swf_fire_1_08": [
+          2,
+          363,
+          251,
+          359
+        ],
+        "bf_swf_fire_1_09": [
+          255,
+          363,
+          251,
+          359
+        ],
+        "bf_swf_fire_1_10": [
+          508,
+          363,
+          251,
+          359
+        ],
+        "bf_swf_fire_1_11": [
+          761,
+          363,
+          251,
+          359
+        ],
+        "bf_swf_fire_1_12": [
+          1014,
+          363,
+          251,
+          359
+        ],
+        "bf_swf_fire_1_13": [
+          1267,
+          363,
+          251,
+          359
+        ],
+        "bf_swf_fire_1_14": [
+          1520,
+          363,
+          251,
+          359
+        ],
+        "bf_swf_fire_1_15": [
+          1773,
+          363,
+          251,
+          359
+        ]
+      },
+      "keys": [
+        "bf_swf_fire_1_00",
+        "bf_swf_fire_1_01",
+        "bf_swf_fire_1_02",
+        "bf_swf_fire_1_03",
+        "bf_swf_fire_1_04",
+        "bf_swf_fire_1_05",
+        "bf_swf_fire_1_06",
+        "bf_swf_fire_1_07",
+        "bf_swf_fire_1_08",
+        "bf_swf_fire_1_09",
+        "bf_swf_fire_1_10",
+        "bf_swf_fire_1_11",
+        "bf_swf_fire_1_12",
+        "bf_swf_fire_1_13",
+        "bf_swf_fire_1_14",
+        "bf_swf_fire_1_15"
+      ],
+      "viewport": [
+        -2,
+        -2,
+        251,
+        359
+      ],
+      "stage": [
+        247.0,
+        355.0
+      ],
+      "fps": 24.0,
+      "source": {
+        "source": "/root/BangBang-Teddy-main-test/downloaded_assets/0602d85427874856466295c05798b867.swf",
+        "md5": "0602d85427874856466295c05798b867"
+      }
+    },
+    "2": {
+      "file": "res://assets/bonfire_flash/swf_fire_2.png",
+      "regions": {
+        "bf_swf_fire_2_00": [
+          2,
+          2,
+          251,
+          359
+        ],
+        "bf_swf_fire_2_01": [
+          255,
+          2,
+          251,
+          359
+        ],
+        "bf_swf_fire_2_02": [
+          508,
+          2,
+          251,
+          359
+        ],
+        "bf_swf_fire_2_03": [
+          761,
+          2,
+          251,
+          359
+        ],
+        "bf_swf_fire_2_04": [
+          1014,
+          2,
+          251,
+          359
+        ],
+        "bf_swf_fire_2_05": [
+          1267,
+          2,
+          251,
+          359
+        ],
+        "bf_swf_fire_2_06": [
+          1520,
+          2,
+          251,
+          359
+        ],
+        "bf_swf_fire_2_07": [
+          1773,
+          2,
+          251,
+          359
+        ],
+        "bf_swf_fire_2_08": [
+          2,
+          363,
+          251,
+          359
+        ],
+        "bf_swf_fire_2_09": [
+          255,
+          363,
+          251,
+          359
+        ],
+        "bf_swf_fire_2_10": [
+          508,
+          363,
+          251,
+          359
+        ],
+        "bf_swf_fire_2_11": [
+          761,
+          363,
+          251,
+          359
+        ],
+        "bf_swf_fire_2_12": [
+          1014,
+          363,
+          251,
+          359
+        ],
+        "bf_swf_fire_2_13": [
+          1267,
+          363,
+          251,
+          359
+        ],
+        "bf_swf_fire_2_14": [
+          1520,
+          363,
+          251,
+          359
+        ],
+        "bf_swf_fire_2_15": [
+          1773,
+          363,
+          251,
+          359
+        ]
+      },
+      "keys": [
+        "bf_swf_fire_2_00",
+        "bf_swf_fire_2_01",
+        "bf_swf_fire_2_02",
+        "bf_swf_fire_2_03",
+        "bf_swf_fire_2_04",
+        "bf_swf_fire_2_05",
+        "bf_swf_fire_2_06",
+        "bf_swf_fire_2_07",
+        "bf_swf_fire_2_08",
+        "bf_swf_fire_2_09",
+        "bf_swf_fire_2_10",
+        "bf_swf_fire_2_11",
+        "bf_swf_fire_2_12",
+        "bf_swf_fire_2_13",
+        "bf_swf_fire_2_14",
+        "bf_swf_fire_2_15"
+      ],
+      "viewport": [
+        -2,
+        -2,
+        251,
+        359
+      ],
+      "stage": [
+        247.0,
+        355.0
+      ],
+      "fps": 24.0,
+      "source": {
+        "source": "/root/BangBang-Teddy-main-test/downloaded_assets/5f98c38f2b1e165b7b73f10ddb47609f.swf",
+        "md5": "5f98c38f2b1e165b7b73f10ddb47609f"
+      }
+    }
+  },
+  "MATCH": {
+    "file": "res://assets/bonfire_flash/swf_match.png",
+    "regions": {
+      "bf_swf_match_00": [
+        2,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_01": [
+        110,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_02": [
+        218,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_03": [
+        326,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_04": [
+        434,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_05": [
+        542,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_06": [
+        650,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_07": [
+        758,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_08": [
+        866,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_09": [
+        974,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_10": [
+        1082,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_11": [
+        1190,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_12": [
+        1298,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_13": [
+        1406,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_14": [
+        1514,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_15": [
+        1622,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_16": [
+        1730,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_17": [
+        1838,
+        2,
+        106,
+        106
+      ],
+      "bf_swf_match_18": [
+        2,
+        110,
+        106,
+        106
+      ],
+      "bf_swf_match_19": [
+        110,
+        110,
+        106,
+        106
+      ]
+    },
+    "keys": [
+      "bf_swf_match_00",
+      "bf_swf_match_01",
+      "bf_swf_match_02",
+      "bf_swf_match_03",
+      "bf_swf_match_04",
+      "bf_swf_match_05",
+      "bf_swf_match_06",
+      "bf_swf_match_07",
+      "bf_swf_match_08",
+      "bf_swf_match_09",
+      "bf_swf_match_10",
+      "bf_swf_match_11",
+      "bf_swf_match_12",
+      "bf_swf_match_13",
+      "bf_swf_match_14",
+      "bf_swf_match_15",
+      "bf_swf_match_16",
+      "bf_swf_match_17",
+      "bf_swf_match_18",
+      "bf_swf_match_19"
+    ],
+    "viewport": [
+      -2,
+      -4,
+      106,
+      106
+    ],
+    "stage": [
+      100.0,
+      100.0
+    ],
+    "fps": 24.0,
+    "source": {
+      "source": "/root/BangBang-Teddy-main-test/downloaded_assets/33383ab2a414789c841d199fc7491e96.swf",
+      "md5": "33383ab2a414789c841d199fc7491e96"
+    }
+  },
+  "MISSING": [
+    "zh_CN/II/bonfire/swf_fire_3.swf",
+    "zh_CN/II/bonfire/swf_fire_4.swf"
+  ]
+}

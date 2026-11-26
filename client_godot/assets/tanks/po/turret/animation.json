@@ -1,0 +1,317 @@
+{
+  "cell_size": [
+    150,
+    150
+  ],
+  "evidence": [
+    {
+      "class": "asBasic.tool.CBitmapUtil",
+      "methods": [
+        "splitBitmap",
+        "splitBitmapHandle"
+      ],
+      "sha256": "bc989a4ce238c7091c1f98d3ca66aeb507873f2548760f4f382cbfe8686a456b",
+      "source": "primary/asBasic/tool/CBitmapUtil.as"
+    },
+    {
+      "class": "model.tank.TankComponentExhibitResModel",
+      "methods": [
+        "setBmpList",
+        "getBodyImageList",
+        "getCrenelImage"
+      ],
+      "sha256": "8be1de684a1012de7215b9360a1de5e879c9ce6e1972b5cc5ed4be5729c5d8c1",
+      "source": "primary/model/tank/TankComponentExhibitResModel.as"
+    },
+    {
+      "class": "model.tank.TankImageTool",
+      "methods": [
+        "getMinBmpDataStruct"
+      ],
+      "sha256": "28f9a362968ea1749591b1e4aba81b97506b2613877f96dfdd5f3987615bba4c",
+      "source": "primary/model/tank/TankImageTool.as"
+    },
+    {
+      "class": "asBasic.view.ui.CAnimation",
+      "methods": [
+        "gotoAndPlay",
+        "process"
+      ],
+      "sha256": "f91f99879ce7ca1fd3d4025fbbf212fd54ab4a04101ffacfcc2acc3f06b6a1cb",
+      "source": "primary/asBasic/view/ui/CAnimation.as"
+    }
+  ],
+  "format": "xml_grid_atlas",
+  "frames": [
+    {
+      "empty": false,
+      "index": 0,
+      "page": 0,
+      "pivot": [
+        53,
+        35
+      ],
+      "rect": [
+        1,
+        1,
+        107,
+        71
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 5,
+      "source_rect": [
+        750,
+        0,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        22,
+        40
+      ]
+    },
+    {
+      "empty": false,
+      "index": 1,
+      "page": 0,
+      "pivot": [
+        53,
+        34
+      ],
+      "rect": [
+        109,
+        1,
+        106,
+        70
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 0,
+      "source_rect": [
+        0,
+        0,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        22,
+        41
+      ]
+    },
+    {
+      "empty": false,
+      "index": 2,
+      "page": 0,
+      "pivot": [
+        53,
+        41
+      ],
+      "rect": [
+        216,
+        1,
+        106,
+        77
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 1,
+      "source_rect": [
+        150,
+        0,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        22,
+        34
+      ]
+    },
+    {
+      "empty": false,
+      "index": 3,
+      "page": 0,
+      "pivot": [
+        53,
+        40
+      ],
+      "rect": [
+        323,
+        1,
+        106,
+        76
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 2,
+      "source_rect": [
+        300,
+        0,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        22,
+        35
+      ]
+    },
+    {
+      "empty": false,
+      "index": 4,
+      "page": 0,
+      "pivot": [
+        53,
+        38
+      ],
+      "rect": [
+        430,
+        1,
+        106,
+        74
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 3,
+      "source_rect": [
+        450,
+        0,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        22,
+        37
+      ]
+    },
+    {
+      "empty": false,
+      "index": 5,
+      "page": 0,
+      "pivot": [
+        53,
+        36
+      ],
+      "rect": [
+        537,
+        1,
+        106,
+        72
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 4,
+      "source_rect": [
+        600,
+        0,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        22,
+        39
+      ]
+    }
+  ],
+  "grid": [
+    6,
+    1
+  ],
+  "ignored_partial_edge": [
+    0,
+    0
+  ],
+  "pages": [
+    {
+      "file": "atlas-00.png",
+      "size": [
+        644,
+        79
+      ]
+    }
+  ],
+  "runtime": {
+    "body_attack_boundary": -1,
+    "cannon_autoplay": 0,
+    "cannon_fixed_angle": 0,
+    "cannon_last_cell_first": true,
+    "direction": "round(normalized_angle/45)%8; residual angle rotates body container",
+    "idle_animation": null,
+    "xml_offset": [
+      -75,
+      -75
+    ]
+  },
+  "sampling": "nearest, 1px transparent gutters, no rotation",
+  "schema_version": 1,
+  "source": {
+    "logical": "zh_CN/tank/cannon/gongfuxiongmao03_cannon.png",
+    "mapped": "zh_CN/tank/cannon/f01e516800d95e16eab1121cf83316f3.png",
+    "physical": "f01e516800d95e16eab1121cf83316f3.png",
+    "sha256": "501b5df0ecd2abd1c072889c4ab9d8b78e8816903ac2137d22600e0935d61d4e"
+  },
+  "timeline": {
+    "clips": [
+      {
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "name": "fire",
+        "return_to_frame": 0
+      }
+    ],
+    "clock": "CAnimation.process callbacks; no fixed FPS in this path",
+    "ticks_per_frame": 1
+  },
+  "xml_row": {
+    "iGridHeight": "150",
+    "iGridWidth": "150",
+    "iOffsetX": "-75",
+    "iOffsetY": "-75",
+    "iReuseA": "103",
+    "iType": "3",
+    "nTemplateId": "5025",
+    "strReuseB": "1",
+    "szImageFile": "gongfuxiongmao03_cannon"
+  }
+}

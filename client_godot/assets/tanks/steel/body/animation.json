@@ -1,0 +1,704 @@
+{
+  "cell_size": [
+    150,
+    150
+  ],
+  "evidence": [
+    {
+      "class": "asBasic.tool.CBitmapUtil",
+      "methods": [
+        "splitBitmap",
+        "splitBitmapHandle"
+      ],
+      "sha256": "bc989a4ce238c7091c1f98d3ca66aeb507873f2548760f4f382cbfe8686a456b",
+      "source": "primary/asBasic/tool/CBitmapUtil.as"
+    },
+    {
+      "class": "model.tank.TankComponentExhibitResModel",
+      "methods": [
+        "setBmpList",
+        "getBodyImageList",
+        "getCrenelImage"
+      ],
+      "sha256": "8be1de684a1012de7215b9360a1de5e879c9ce6e1972b5cc5ed4be5729c5d8c1",
+      "source": "primary/model/tank/TankComponentExhibitResModel.as"
+    },
+    {
+      "class": "model.tank.TankImageTool",
+      "methods": [
+        "getMinBmpDataStruct"
+      ],
+      "sha256": "28f9a362968ea1749591b1e4aba81b97506b2613877f96dfdd5f3987615bba4c",
+      "source": "primary/model/tank/TankImageTool.as"
+    },
+    {
+      "class": "asBasic.view.ui.CAnimation",
+      "methods": [
+        "gotoAndPlay",
+        "process"
+      ],
+      "sha256": "f91f99879ce7ca1fd3d4025fbbf212fd54ab4a04101ffacfcc2acc3f06b6a1cb",
+      "source": "primary/asBasic/view/ui/CAnimation.as"
+    }
+  ],
+  "format": "xml_grid_atlas",
+  "frames": [
+    {
+      "empty": false,
+      "index": 0,
+      "page": 0,
+      "pivot": [
+        38,
+        38
+      ],
+      "rect": [
+        1,
+        1,
+        83,
+        108
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 0,
+      "source_rect": [
+        0,
+        0,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        37,
+        37
+      ]
+    },
+    {
+      "empty": false,
+      "index": 1,
+      "page": 0,
+      "pivot": [
+        38,
+        38
+      ],
+      "rect": [
+        85,
+        1,
+        82,
+        108
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 1,
+      "source_rect": [
+        150,
+        0,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        37,
+        37
+      ]
+    },
+    {
+      "empty": false,
+      "index": 2,
+      "page": 0,
+      "pivot": [
+        62,
+        36
+      ],
+      "rect": [
+        168,
+        1,
+        116,
+        111
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 2,
+      "source_rect": [
+        0,
+        150,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        13,
+        39
+      ]
+    },
+    {
+      "empty": false,
+      "index": 3,
+      "page": 0,
+      "pivot": [
+        62,
+        36
+      ],
+      "rect": [
+        285,
+        1,
+        116,
+        111
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 3,
+      "source_rect": [
+        150,
+        150,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        13,
+        39
+      ]
+    },
+    {
+      "empty": false,
+      "index": 4,
+      "page": 0,
+      "pivot": [
+        53,
+        26
+      ],
+      "rect": [
+        402,
+        1,
+        110,
+        80
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 4,
+      "source_rect": [
+        0,
+        300,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        22,
+        49
+      ]
+    },
+    {
+      "empty": false,
+      "index": 5,
+      "page": 0,
+      "pivot": [
+        53,
+        26
+      ],
+      "rect": [
+        513,
+        1,
+        110,
+        80
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 5,
+      "source_rect": [
+        150,
+        300,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        22,
+        49
+      ]
+    },
+    {
+      "empty": false,
+      "index": 6,
+      "page": 0,
+      "pivot": [
+        61,
+        47
+      ],
+      "rect": [
+        624,
+        1,
+        115,
+        110
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 6,
+      "source_rect": [
+        0,
+        450,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        14,
+        28
+      ]
+    },
+    {
+      "empty": false,
+      "index": 7,
+      "page": 0,
+      "pivot": [
+        61,
+        47
+      ],
+      "rect": [
+        740,
+        1,
+        116,
+        110
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 7,
+      "source_rect": [
+        150,
+        450,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        14,
+        28
+      ]
+    },
+    {
+      "empty": false,
+      "index": 8,
+      "page": 0,
+      "pivot": [
+        37,
+        43
+      ],
+      "rect": [
+        857,
+        1,
+        80,
+        109
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 8,
+      "source_rect": [
+        0,
+        600,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        38,
+        32
+      ]
+    },
+    {
+      "empty": false,
+      "index": 9,
+      "page": 0,
+      "pivot": [
+        37,
+        43
+      ],
+      "rect": [
+        938,
+        1,
+        80,
+        109
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 9,
+      "source_rect": [
+        150,
+        600,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        38,
+        32
+      ]
+    },
+    {
+      "empty": false,
+      "index": 10,
+      "page": 0,
+      "pivot": [
+        47,
+        47
+      ],
+      "rect": [
+        1,
+        113,
+        115,
+        110
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 10,
+      "source_rect": [
+        0,
+        750,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        28,
+        28
+      ]
+    },
+    {
+      "empty": false,
+      "index": 11,
+      "page": 0,
+      "pivot": [
+        47,
+        47
+      ],
+      "rect": [
+        117,
+        113,
+        114,
+        110
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 11,
+      "source_rect": [
+        150,
+        750,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        28,
+        28
+      ]
+    },
+    {
+      "empty": false,
+      "index": 12,
+      "page": 0,
+      "pivot": [
+        50,
+        26
+      ],
+      "rect": [
+        232,
+        113,
+        112,
+        80
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 12,
+      "source_rect": [
+        0,
+        900,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        25,
+        49
+      ]
+    },
+    {
+      "empty": false,
+      "index": 13,
+      "page": 0,
+      "pivot": [
+        50,
+        26
+      ],
+      "rect": [
+        345,
+        113,
+        111,
+        80
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 13,
+      "source_rect": [
+        150,
+        900,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        25,
+        49
+      ]
+    },
+    {
+      "empty": false,
+      "index": 14,
+      "page": 0,
+      "pivot": [
+        47,
+        35
+      ],
+      "rect": [
+        457,
+        113,
+        114,
+        110
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 14,
+      "source_rect": [
+        0,
+        1050,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        28,
+        40
+      ]
+    },
+    {
+      "empty": false,
+      "index": 15,
+      "page": 0,
+      "pivot": [
+        47,
+        35
+      ],
+      "rect": [
+        572,
+        113,
+        114,
+        110
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 15,
+      "source_rect": [
+        150,
+        1050,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        28,
+        40
+      ]
+    }
+  ],
+  "grid": [
+    2,
+    8
+  ],
+  "ignored_partial_edge": [
+    0,
+    0
+  ],
+  "pages": [
+    {
+      "file": "atlas-00.png",
+      "size": [
+        1019,
+        224
+      ]
+    }
+  ],
+  "runtime": {
+    "body_attack_boundary": -1,
+    "cannon_autoplay": null,
+    "cannon_fixed_angle": null,
+    "cannon_last_cell_first": false,
+    "direction": "round(normalized_angle/45)%8; residual angle rotates body container",
+    "idle_animation": 0,
+    "xml_offset": [
+      -75,
+      -75
+    ]
+  },
+  "sampling": "nearest, 1px transparent gutters, no rotation",
+  "schema_version": 1,
+  "source": {
+    "logical": "zh_CN/tank/body/gangtiexia03_body.png",
+    "mapped": "zh_CN/tank/body/713cb94ab0fe7f80e45835da426e5c31.png",
+    "physical": "tank/body/713cb94ab0fe7f80e45835da426e5c31.png",
+    "sha256": "ee34d6d52bc0c01d825ecb690ccd221a162a02b2a2735d1d2153b723530d5072"
+  },
+  "timeline": {
+    "clips": [
+      {
+        "angle_degrees": 0,
+        "frames": [
+          0,
+          1
+        ]
+      },
+      {
+        "angle_degrees": 45,
+        "frames": [
+          2,
+          3
+        ]
+      },
+      {
+        "angle_degrees": 90,
+        "frames": [
+          4,
+          5
+        ]
+      },
+      {
+        "angle_degrees": 135,
+        "frames": [
+          6,
+          7
+        ]
+      },
+      {
+        "angle_degrees": 180,
+        "frames": [
+          8,
+          9
+        ]
+      },
+      {
+        "angle_degrees": 225,
+        "frames": [
+          10,
+          11
+        ]
+      },
+      {
+        "angle_degrees": 270,
+        "frames": [
+          12,
+          13
+        ]
+      },
+      {
+        "angle_degrees": 315,
+        "frames": [
+          14,
+          15
+        ]
+      }
+    ],
+    "clock": "CAnimation.process callbacks; no fixed FPS in this path",
+    "ticks_per_frame": 2
+  },
+  "xml_row": {
+    "iGridHeight": "150",
+    "iGridWidth": "150",
+    "iOffsetX": "-75",
+    "iOffsetY": "-75",
+    "iReuseA": "2",
+    "iReuseF": "2",
+    "iType": "4",
+    "nTemplateId": "5046",
+    "strReuseB": "gaoda05_death.swf",
+    "strReuseC": "tank_blow.swf",
+    "szAvatarImage1": "gangtiexia03.png",
+    "szImageFile": "gangtiexia03_body"
+  }
+}

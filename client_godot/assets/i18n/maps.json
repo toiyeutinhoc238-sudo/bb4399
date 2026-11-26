@@ -1,0 +1,1370 @@
+{
+"1": {
+"goal": "Tiêu diệt đối thủ, kiếm điểm giành chiến thắng!",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 3,
+"name": "Maya Tiên Tri [Tính Điểm]",
+"rounds": 0,
+"type": 1,
+"win": 25
+},
+"10": {
+"goal": "Chiếm cứ điểm, kiếm điểm giành chiến thắng!",
+"mode": "Đoạt chiếm cứ điểm",
+"modeType": 2,
+"name": "Trung Tâm Chuyển Hàng [Cứ điểm]",
+"rounds": 0,
+"type": 1,
+"win": 1000
+},
+"100": {
+"goal": "Tiêu diệt địch",
+"mode": "Huấn luyện tân thủ",
+"modeType": 0,
+"name": "Huấn luyện tân binh [huấn luyện]",
+"rounds": 0,
+"type": 3,
+"win": 0
+},
+"101": {
+"goal": "",
+"mode": "Tiêu diệt địch",
+"modeType": 3,
+"name": "Luyện Nhiệt Huyết",
+"rounds": 0,
+"type": 5,
+"win": 3
+},
+"102": {
+"goal": "Phá sở chỉ huy địch",
+"mode": "Module cứ địa",
+"modeType": 1,
+"name": "Luyện Căn Cứ",
+"rounds": 0,
+"type": 5,
+"win": 0
+},
+"103": {
+"goal": "",
+"mode": "Tiêu diệt địch",
+"modeType": 2,
+"name": "Luyện Cứ Điểm",
+"rounds": 0,
+"type": 5,
+"win": 1000
+},
+"104": {
+"goal": "Tiêu diệt đối thủ, kiếm điểm giành chiến thắng!",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 3,
+"name": "Núi Tuyết [Luyện Nhiệt Huyết]",
+"rounds": 0,
+"type": 3,
+"win": 7
+},
+"12": {
+"goal": "Phá hủy Bệ Pháo trước mới được tấn công cứ địa",
+"mode": "Căn Cứ Giao Chiến",
+"modeType": 1,
+"name": "Tranh đoạt mỏ khoáng [căn cứ]",
+"rounds": 0,
+"type": 1,
+"win": 0
+},
+"130": {
+"goal": "Dùng Cầu Lửa đẩy đối thủ xuống dung nham!",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 7,
+"name": "Đấu Cầu Lửa",
+"rounds": 0,
+"type": 15,
+"win": 25
+},
+"13101": {
+"goal": "Diệt BOSS",
+"mode": "PB Team",
+"modeType": 0,
+"name": "Luyện Ngục Hồn",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"14": {
+"goal": "Phá hủy Bệ Pháo trước mới được tấn công cứ địa",
+"mode": "Căn Cứ Giao Chiến",
+"modeType": 1,
+"name": "Di chỉ Maya [căn cứ]",
+"rounds": 0,
+"type": 1,
+"win": 0
+},
+"14101": {
+"goal": "Diệt BOSS",
+"mode": "PB Team",
+"modeType": 0,
+"name": "Luyện Ngục Hồn",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"150": {
+"goal": "Tiêu diệt đối thủ, kiếm điểm giành chiến thắng!",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 3,
+"name": "Luyện Nhiệt Huyết [căn cứ diễn tập]",
+"rounds": 0,
+"type": 6,
+"win": 25
+},
+"151": {
+"goal": "Tiêu diệt đối thủ, kiếm điểm giành chiến thắng!",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 3,
+"name": "Luyện Nhiệt Huyết [Di Chỉ Khảo Cổ]",
+"rounds": 0,
+"type": 6,
+"win": 25
+},
+"152": {
+"goal": "Tiêu diệt đối thủ, kiếm điểm giành chiến thắng!",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 3,
+"name": "Băng Thiên Tuyết Địa",
+"rounds": 0,
+"type": 6,
+"win": 25
+},
+"153": {
+"goal": "Tiêu diệt đối thủ, kiếm điểm giành chiến thắng!",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 3,
+"name": "Luyện Nhiệt Huyết [Di ngôn Maya]",
+"rounds": 0,
+"type": 6,
+"win": 25
+},
+"166": {
+"goal": "Phá sở chỉ huy địch",
+"mode": "Căn Cứ Giao Chiến",
+"modeType": 1,
+"name": "Luyện Nhiệt Huyết [Tranh đoạt mỏ khoáng]",
+"rounds": 0,
+"type": 6,
+"win": 0
+},
+"167": {
+"goal": "Phá sở chỉ huy địch",
+"mode": "Căn Cứ Giao Chiến",
+"modeType": 1,
+"name": "Luyện Nhiệt Huyết [Di Chỉ Maya]",
+"rounds": 0,
+"type": 6,
+"win": 0
+},
+"168": {
+"goal": "Phá sở chỉ huy địch",
+"mode": "Căn Cứ Giao Chiến",
+"modeType": 1,
+"name": "Bản đồ 168",
+"rounds": 0,
+"type": 6,
+"win": 0
+},
+"169": {
+"goal": "Phá hủy Bệ Pháo trước mới được tấn công cứ địa",
+"mode": "Căn Cứ Giao Chiến",
+"modeType": 1,
+"name": "Địa cực DOTA [căn cứ]",
+"rounds": 0,
+"type": 1,
+"win": 0
+},
+"17": {
+"goal": "Tiêu diệt đối thủ, kiếm điểm giành chiến thắng!",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 3,
+"name": "Fastfood [Tính Điểm]",
+"rounds": 0,
+"type": 1,
+"win": 25
+},
+"170": {
+"goal": "Chiếm cứ điểm, kiếm điểm giành chiến thắng!",
+"mode": "Đoạt chiếm cứ điểm",
+"modeType": 2,
+"name": "Bão Cát [Cứ Điểm)",
+"rounds": 0,
+"type": 1,
+"win": 1000
+},
+"175": {
+"goal": "Chiếm cứ điểm, kiếm điểm giành chiến thắng!",
+"mode": "Đoạt chiếm cứ điểm",
+"modeType": 2,
+"name": "Luyện Cứ Điểm[Di Chỉ Khảo Cổ]",
+"rounds": 0,
+"type": 6,
+"win": 1000
+},
+"176": {
+"goal": "",
+"mode": "Thử Dùng Tank",
+"modeType": 0,
+"name": "Bãi Thử Dùng Tank",
+"rounds": 0,
+"type": 6,
+"win": 0
+},
+"177": {
+"goal": "Chiếm cứ điểm, kiếm điểm giành chiến thắng!",
+"mode": "Đoạt chiếm cứ điểm",
+"modeType": 2,
+"name": "Bão Cát [Cứ Điểm)",
+"rounds": 0,
+"type": 13,
+"win": 1000
+},
+"18": {
+"goal": "Tiêu diệt đối thủ, kiếm điểm giành chiến thắng!",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 3,
+"name": "Hoang Dã Đại Địa [Tính Điểm]",
+"rounds": 0,
+"type": 1,
+"win": 25
+},
+"19": {
+"goal": "Tiêu diệt đối thủ, kiếm điểm giành chiến thắng!",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 3,
+"name": "Stars war [Tính Điểm]",
+"rounds": 0,
+"type": 1,
+"win": 25
+},
+"190": {
+"goal": "Diệt BOSS",
+"mode": "Huấn luyện tân thủ",
+"modeType": 0,
+"name": "Luyện Phụ Bản",
+"rounds": 0,
+"type": 6,
+"win": 0
+},
+"20": {
+"goal": "",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 3,
+"name": "Bò sữa chạy nhanh [Tính Điểm]",
+"rounds": 0,
+"type": 1,
+"win": 25
+},
+"2002": {
+"goal": "Diệt tất cả địch",
+"mode": "Hoạt Động Phượng Hoàng",
+"modeType": 1,
+"name": "Chiến Trường Băng Lửa",
+"rounds": 0,
+"type": 10,
+"win": 0
+},
+"201": {
+"goal": "Diệt BOSS",
+"mode": "Huấn luyện tân thủ",
+"modeType": 0,
+"name": "Lính Đánh Thuê Gian ÁC",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"203": {
+"goal": "Tiêu diệt địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Mỏ Vàng",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"204": {
+"goal": "Tiêu diệt địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Tấn Công Sấm Sét ",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"205": {
+"goal": "Tiêu diệt địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Trận Chiến Quyết Liệt",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"206": {
+"goal": "Diệt BOSS cuối cùng",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Anh Hùng Cứu Mỹ Nhân",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"21": {
+"goal": "Tiêu diệt đối thủ, kiếm điểm giành chiến thắng!",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 3,
+"name": "Sấm Vang Dội[Tính Điểm]",
+"rounds": 0,
+"type": 1,
+"win": 25
+},
+"211": {
+"goal": "Thoát khỏi căn cứ bảo vệ địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Rời Trại Tập Trung",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"212": {
+"goal": "Tiêu diệt địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Thoát Trong Gang Tấc",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"213": {
+"goal": "Hạ pháo hạm",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Thoát khỏi hang cọp",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"23101": {
+"goal": "Diệt BOSS",
+"mode": "PB Team",
+"modeType": 0,
+"name": "Vực Sâu Hành Tinh",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"24101": {
+"goal": "Diệt BOSS",
+"mode": "PB Team",
+"modeType": 0,
+"name": "Vực Sâu Hành Tinh",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"30": {
+"goal": "Sống sót sẽ diệt hết địch",
+"mode": "Sinh Tử",
+"modeType": 4,
+"name": "Mỏ Khoáng Sụp Đổ [Sinh Tử]",
+"rounds": 2,
+"type": 1,
+"win": 100
+},
+"301": {
+"goal": "Diệt 4 tank hạng nặng",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Cuộc Chiến Bờ Biển",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"30101": {
+"goal": "Tiêu diệt Kẻ Hành Quyết",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Nhà Tù Thép",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"30102": {
+"goal": "Tiêu diệt Behemeth Tinh Không",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Nhân Bản Vô Tính",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"30103": {
+"goal": "Tiêu diệt Bá Tước Dooku",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Bá Tước Bóng Đêm",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"302": {
+"goal": "Phá 4 hỏa tiễn trung tâm",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Phá Hủy Đạn Đạo",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"303": {
+"goal": "Phá khu trục hạm hỏa tiễn",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Chiến Hạm Trọng Yếu",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"304": {
+"goal": "Phá trực thăng",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Khu Rừng Dã Chiến",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"305": {
+"goal": "Hủy Tank và xưởng vũ khí",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Vào Hang Cọp",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"306": {
+"goal": "Diệt tank hạng nặng-lớn",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Tank Cuồng Bạo",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31101": {
+"goal": "Tiêu diệt Kẻ Hành Quyết",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Nhà Tù Thép",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31102": {
+"goal": "Tiêu diệt Behemeth Tinh Không",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Nhân Bản Vô Tính",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31103": {
+"goal": "Tiêu diệt Bá Tước Dooku",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Bá Tước Bóng Đêm",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31201": {
+"goal": "Tìm lối thoát tiêu diệt Chó Lây  Bệnh",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Resident Evil",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31202": {
+"goal": "Cướp Xe Cẩu chạy qua Siêu Thị",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Tìm Kiếm Bệnh Dịch",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31203": {
+"goal": "Tìm mẫu độc tiêu diệt kẻ địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Lính Sinh Hóa",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31301": {
+"goal": "Diệt quá tìm cửa vào căn cứ",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Thành Phố Chết",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31302": {
+"goal": "Vào căn cứ phá vòng vây",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Redbee",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31303": {
+"goal": "Hạ quái, thoát khỏi thành phố",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Sống Hay Chết",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31401": {
+"goal": "Hạ Trùng Ăn Xác tìm đường thoát",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Sa Mạc Tử Thần",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31402": {
+"goal": "Phá núi ra biển",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Căn Cứ Sa Mạc",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31403": {
+"goal": "Hộ Vệ Đảo Bình Minh",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Bình Minh Đỏ",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31501": {
+"goal": "Diệt Muỗi Hút Máu vào căn cứ ngầm",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Trở Về",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31502": {
+"goal": "Hạ Wesker lấy bí mật",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Bóng Tối Căn Cứ",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31503": {
+"goal": "Hạ Biến Thể Độc G",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Nguồn Gốc Hủy Diệt",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31601": {
+"goal": "Vào kho Mê Cung tìm chất độc A",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Mê Cung Kinh Hồn",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"31602": {
+"goal": "Ứng cứu nhân loại, diệt Tà Nhãn Dị Thể",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Nữ Thần Báo Thù",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"32201": {
+"goal": "Tìm lối thoát tiêu diệt Chó Lây  Bệnh",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Resident Evil",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"32202": {
+"goal": "Cướp Xe Cẩu chạy qua Siêu Thị",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Tìm Kiếm Bệnh Dịch",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"32203": {
+"goal": "Tìm mẫu độc tiêu diệt kẻ địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Lính Sinh Hóa",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"32301": {
+"goal": "Diệt quá tìm cửa vào căn cứ",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Thành Phố Chết",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"32302": {
+"goal": "Vào căn cứ phá vòng vây",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Redbee",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"32303": {
+"goal": "Hạ quái, thoát khỏi thành phố",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Sống Hay Chết",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"32401": {
+"goal": "Hạ Trùng Ăn Xác tìm đường thoát",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Sa Mạc Tử Thần",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"32402": {
+"goal": "Phá núi ra biển",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Căn Cứ Sa Mạc",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"32403": {
+"goal": "Hộ Vệ Đảo Bình Minh",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Bình Minh Đỏ",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"32501": {
+"goal": "Diệt Muỗi Hút Máu vào căn cứ ngầm",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Trở Về",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"32502": {
+"goal": "Hạ Wesker lấy bí mật",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Bóng Tối Căn Cứ",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"32503": {
+"goal": "Hạ Biến Thể Độc G",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Nguồn Gốc Hủy Diệt",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"32601": {
+"goal": "Vào kho Mê Cung tìm chất độc A",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Mê Cung Kinh Hồn",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"32602": {
+"goal": "Ứng cứu nhân loại, diệt Tà Nhãn Dị Thể",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Nữ Thần Báo Thù",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"33101": {
+"goal": "Diệt BOSS",
+"mode": "PB Team",
+"modeType": 0,
+"name": "Dominions",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"333": {
+"goal": "Phá hết 3 tháp tên lửa mới tấn công được nhà chính",
+"mode": "Công phá căn cứ",
+"modeType": 1,
+"name": "Lô Cốt Pháo Đài 3C [Căn cứ]",
+"rounds": 0,
+"type": 1,
+"win": 0
+},
+"334": {
+"goal": "Tiêu diệt đối thủ, kiếm điểm giành chiến thắng!",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 3,
+"name": "Trại Gỗ Rừng Thông [Tính Điểm]",
+"rounds": 0,
+"type": 1,
+"win": 25
+},
+"34": {
+"goal": "Tiêu diệt đối thủ, kiếm điểm giành chiến thắng!",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 3,
+"name": "Trạm Cực Địa [Tính Điểm]",
+"rounds": 0,
+"type": 1,
+"win": 25
+},
+"34101": {
+"goal": "Diệt BOSS",
+"mode": "PB Team",
+"modeType": 0,
+"name": "Dominions",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"35": {
+"goal": "Tiêu diệt đối thủ, kiếm điểm giành chiến thắng!",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 3,
+"name": "Pháo Đài Star [Tính Điểm]",
+"rounds": 0,
+"type": 1,
+"win": 25
+},
+"36": {
+"goal": "Tiêu diệt đối thủ, kiếm điểm giành chiến thắng!",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 3,
+"name": "Khu Mỏ Bức Xạ [Tính Điểm]",
+"rounds": 0,
+"type": 1,
+"win": 25
+},
+"37": {
+"goal": "Chiếm cứ điểm, kiếm điểm giành chiến thắng!",
+"mode": "Đoạt chiếm cứ điểm",
+"modeType": 2,
+"name": "Chiến Khu Tử Vong (Cứ Điểm)",
+"rounds": 0,
+"type": 1,
+"win": 1000
+},
+"4": {
+"goal": "Tiêu diệt đối thủ, kiếm điểm giành chiến thắng!",
+"mode": "Nhiệt huyết diệt địch",
+"modeType": 3,
+"name": "Băng Thiên Tuyết Địa [Nhiệt huyết]",
+"rounds": 0,
+"type": 1,
+"win": 25
+},
+"40": {
+"goal": "Sống sót sẽ diệt hết địch",
+"mode": "Sinh Tử",
+"modeType": 4,
+"name": "Thành Tận Thế [Tử Vong]",
+"rounds": 2,
+"type": 1,
+"win": 100
+},
+"40000": {
+"goal": "Diệt BOSS",
+"mode": "BOSS Thế Giới",
+"modeType": 0,
+"name": "Hỏa Thần",
+"rounds": 0,
+"type": 9,
+"win": 0
+},
+"40002": {
+"goal": "Diệt BOSS",
+"mode": "BOSS Thế Giới",
+"modeType": 0,
+"name": "Cứ Địa Lunar",
+"rounds": 0,
+"type": 9,
+"win": 0
+},
+"401": {
+"goal": "Hủy tàu ngầm quân địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Tàu Ngầm Đáng Sợ",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"402": {
+"goal": "Tiêu diệt địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Con Đường Anh Hùng",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"403": {
+"goal": "Diệt BOSS cuối cùng",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Nhện VS Tank",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"404": {
+"goal": "Tiêu diệt địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Triệt Hạ Cường Địch",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"405": {
+"goal": "Bảo vệ đầu cầu",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Bảo Vệ Cầu",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"406": {
+"goal": "Diệt BOSS cuối cùng",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Xe Lửa Cuồng Bạo",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"50": {
+"goal": "Phá hủy Bệ Pháo trước mới được tấn công cứ địa",
+"mode": "Căn Cứ Giao Chiến",
+"modeType": 1,
+"name": "Trấn Nhỏ Mặt Trời[Căn Cứ]",
+"rounds": 0,
+"type": 1,
+"win": 0
+},
+"501": {
+"goal": "Tiêu diệt người ngoài hành tinh",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Bị Xâm Nhập",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"502": {
+"goal": "Cứu nhà nghiên cứu khoa học",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Ứng Cứu Sinh Tử",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"503": {
+"goal": "Diệt BOSS Cơ giáp ngoài hành tinh",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Đoạt Trạm Không Gian",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"504": {
+"goal": "Mở cửa dịch chuyển, đến trạm không gian",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Vùng Phản Công",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"505": {
+"goal": "Diệt Người Ngoài Hành Tinh",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Đại Chiến Ngoài Hành Tinh",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"506": {
+"goal": "",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Lần Đầu Dẫn Binh",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5211": {
+"goal": "Thoát khỏi căn cứ bảo vệ địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Rời Trại Tập Trung",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5212": {
+"goal": "Tiêu diệt địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Thoát Trong Gang Tấc",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5213": {
+"goal": "Hạ pháo hạm",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Thoát khỏi hang cọp",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5301": {
+"goal": "Diệt 4 tank hạng nặng",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Cuộc Chiến Bờ Biển",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5302": {
+"goal": "Phá 4 hỏa tiễn trung tâm",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Phá Hủy Đạn Đạo",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5303": {
+"goal": "Phá khu trục hạm hỏa tiễn",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Chiến Hạm Trọng Yếu",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5304": {
+"goal": "Phá trực thăng",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Khu Rừng Dã Chiến",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5305": {
+"goal": "Hủy Tank và xưởng vũ khí",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Vào Hang Cọp",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5306": {
+"goal": "Diệt tank hạng nặng-lớn",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Tank Cuồng Bạo",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5401": {
+"goal": "Hủy tàu ngầm quân địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Tàu Ngầm Đáng Sợ",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5402": {
+"goal": "Tiêu diệt địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Con Đường Anh Hùng",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5403": {
+"goal": "Diệt BOSS cuối cùng",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Nhện VS Tank",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5404": {
+"goal": "Tiêu diệt địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Triệt Hạ Cường Địch",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5405": {
+"goal": "Bảo vệ đầu cầu",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Bảo Vệ Cầu",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5406": {
+"goal": "Diệt BOSS cuối cùng",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Xe Lửa Cuồng Bạo",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5501": {
+"goal": "Tiêu diệt người ngoài hành tinh",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Bị Xâm Nhập",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5502": {
+"goal": "Cứu nhà nghiên cứu khoa học",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Ứng Cứu Sinh Tử",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5503": {
+"goal": "Diệt BOSS Cơ giáp ngoài hành tinh",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Đoạt Trạm Không Gian",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5504": {
+"goal": "Mở cửa dịch chuyển, đến trạm không gian",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Vùng Phản Công",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5505": {
+"goal": "Diệt Người Ngoài Hành Tinh",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Đại Chiến Ngoài Hành Tinh",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5506": {
+"goal": "",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Lần Đầu Dẫn Binh",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5601": {
+"goal": "Cứu Nữ Vương Amidala",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Giải Cứu Nữ Vương",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5602": {
+"goal": "Tìm động cơ phi thuyền",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Tốc Độ Tử Thần",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5603": {
+"goal": "Hạ chiến binh Sith",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Chiến binh Sith",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5701": {
+"goal": "Tiêu diệt địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Phi Trường Gặp Nạn",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5702": {
+"goal": "Tiêu diệt địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Tập Kích Trạm Xe",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"5703": {
+"goal": "Tiêu diệt địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Trận Đánh Giông Bão",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"601": {
+"goal": "Cứu Nữ Vương Amidala",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Giải Cứu Nữ Vương",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"602": {
+"goal": "Tìm động cơ phi thuyền",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Tốc Độ Tử Thần",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"603": {
+"goal": "Hạ chiến binh Sith",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Chiến binh Sith",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"7": {
+"goal": "Chiếm cứ điểm, kiếm điểm giành chiến thắng!",
+"mode": "Đoạt chiếm cứ điểm",
+"modeType": 2,
+"name": "Việt Dã [Cứ điểm]",
+"rounds": 0,
+"type": 1,
+"win": 1000
+},
+"70": {
+"goal": "Hộ tống xe đạn đến đích",
+"mode": "Hộ tống đánh phá",
+"modeType": 1,
+"name": "Cuộc Chiến Tử Thần[Hộ Tống]",
+"rounds": 0,
+"type": 1,
+"win": 0
+},
+"701": {
+"goal": "Tiêu diệt địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Phi Trường Gặp Nạn",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"702": {
+"goal": "Tiêu diệt địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Tập Kích Trạm Xe",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"703": {
+"goal": "Tiêu diệt địch",
+"mode": "Tiêu diệt địch",
+"modeType": 0,
+"name": "Trận Đánh Giông Bão",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"80": {
+"goal": "Hủy Tank xếp hạng cao hơn, được điểm tích lũy và đổi hạng.",
+"mode": "Giải đấu vui vẻ",
+"modeType": 0,
+"name": "Nông trại vui vẻ",
+"rounds": 0,
+"type": 7,
+"win": 0
+},
+"8000": {
+"goal": "Đánh bại Ngựa Bạc đoạt báu vật",
+"mode": "Đánh bại Ngựa Bạc",
+"modeType": 0,
+"name": "Bản đồ 8000",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"8001": {
+"goal": "Đánh bại Ngựa Vàng đoạt báu vật",
+"mode": "Đánh bại Ngựa Vàng",
+"modeType": 0,
+"name": "Bản đồ 8001",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"8002": {
+"goal": "Đánh bại Ngựa Kim Cương đoạt báu vật",
+"mode": "Đánh bại Ngựa Kim Cương",
+"modeType": 0,
+"name": "Bản đồ 8002",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"8003": {
+"goal": "Đánh bại Boss Ất Mùi đoạt báu vật",
+"mode": "Boss Ất Mùi",
+"modeType": 0,
+"name": "Boss Ất Mùi (Thường)",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"8004": {
+"goal": "Đánh bại Boss Ất Mùi Vàng đoạt báu vật",
+"mode": "Hạ Boss Ất Mùi Vàng",
+"modeType": 0,
+"name": "Boss Ất Mùi Vàng (Khó)",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"8005": {
+"goal": "Đánh bại Boss Ất Mùi Thần Thánh đoạt báu vật",
+"mode": "Hạ Boss Ất Mùi Thần Thánh",
+"modeType": 0,
+"name": "Boss Ất Mùi Thần Thánh (Anh Hùng)",
+"rounds": 0,
+"type": 2,
+"win": 0
+},
+"81": {
+"goal": "Hủy Tank xếp hạng cao hơn, được điểm tích lũy và đổi hạng.",
+"mode": "Giải đấu vui vẻ",
+"modeType": 0,
+"name": "Giáng Sinh Vui Vẻ",
+"rounds": 0,
+"type": 7,
+"win": 0
+},
+"82": {
+"goal": "Hủy Tank xếp hạng cao hơn, được điểm tích lũy và đổi hạng.",
+"mode": "Giải đấu vui vẻ",
+"modeType": 0,
+"name": "Luyện Vui Vẻ",
+"rounds": 0,
+"type": 8,
+"win": 0
+},
+"9": {
+"goal": "Chiếm cứ điểm, kiếm điểm giành chiến thắng!",
+"mode": "Đoạt chiếm cứ điểm",
+"modeType": 2,
+"name": "Cổ mộ Ai Cập [Cứ điểm]",
+"rounds": 0,
+"type": 1,
+"win": 1000
+}
+}

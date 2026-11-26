@@ -1,0 +1,16 @@
+{
+  "name": "bangbang-server",
+  "version": "1.0.0",
+  "description": "BangBang / Tank Ghost Node.js + MongoDB Game Server",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/smoke.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.15.0",
+    "ws": "^8.18.1"
+  }
+}

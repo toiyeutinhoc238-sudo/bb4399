@@ -1,0 +1,65 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Tank Ghost"
+run/main_scene="res://main.tscn"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="bangbang-g4"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/stretch_mode=4
+boot_splash/image="res://assets/boot/splash.png"
+config/icon="res://icon.png"
+config/windows_native_icon="res://icon.ico"
+run/main_scene.android="res://android_boot.tscn"
+
+[bangbang]
+
+native_login_host="127.0.0.1"
+native_login_port=9000
+android_origin="http://127.0.0.1:8080"
+android_asset_root="http://127.0.0.1:8080/godot/a/"
+android_page=""
+
+[display]
+
+window/size/viewport_width=1386
+window/size/viewport_height=640
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=4
+
+[editor_overrides]
+
+text_editor/behavior/indent/type=0
+text_editor/behavior/indent/size=4
+
+[gui]
+
+theme/custom_font="res://assets/fonts/BeVietnamPro-Medium.ttf"
+
+[input_devices]
+
+pointing/emulate_mouse_from_touch=false
+pointing/emulate_mouse_from_touch.android=true
+pointing/emulate_mouse_from_touch.ios=true
+pointing/emulate_mouse_from_touch.web=true
+
+[network]
+
+limits/debugger/max_chars_per_second=1024
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true

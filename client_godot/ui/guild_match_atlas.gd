@@ -1,0 +1,41 @@
+extends RefCounted
+
+
+const FILE: String = "res://assets/ui/hall/guild_match.png"
+
+const R: Dictionary = {
+	"clan_button_ico_goleague_t": [604, 322, 160, 46], 
+	"gameroom_avatar_card": [2, 2, 158, 318], 
+	"gameroom_avatar_card_myself": [162, 2, 158, 318], 
+	"gameroom_btn_cancel_join_league": [734, 2, 81, 79], 
+	"gameroom_btn_join_league": [817, 2, 81, 79], 
+	"gameroom_button_orange_ss": [554, 322, 48, 48], 
+	"gameroom_button_s2_blue": [766, 322, 181, 43], 
+	"gameroom_button_s2_cyan": [2, 398, 181, 43], 
+	"gameroom_button_s2_gray": [185, 398, 181, 43], 
+	"gameroom_button_s2_orange": [368, 398, 181, 43], 
+	"gameroom_ico_mark": [662, 398, 22, 30], 
+	"gameroom_icon_cancel_join_t": [456, 322, 47, 56], 
+	"gameroom_icon_join_league_t": [505, 322, 47, 56], 
+	"gameroom_img_league_pair_bg": [482, 2, 250, 100], 
+	"gameroom_quickplay_bk": [2, 322, 282, 74], 
+	"gameroom_sort_title_teamcompetition_selected_t": [551, 398, 109, 39], 
+	"gameroom_team_signed_t": [286, 322, 83, 68], 
+	"gameroom_team_unsign_t": [371, 322, 83, 68], 
+	"gameroom_wd_league_desc1_t": [723, 443, 118, 16], 
+	"gameroom_wd_league_desc2_t": [843, 443, 118, 16], 
+	"gameroom_wd_league_desc3_t": [573, 443, 148, 16], 
+	"gameroom_word_allrank_t": [431, 443, 69, 17], 
+	"gameroom_word_cancelgobattle_disabled_t": [782, 398, 82, 25], 
+	"gameroom_word_cancelgobattle_t": [866, 398, 82, 25], 
+	"gameroom_word_challengerule_t": [502, 443, 69, 17], 
+	"gameroom_word_clancurrentrank_t": [348, 443, 81, 17], 
+	"gameroom_word_gobattle_t": [686, 398, 94, 25], 
+	"gameroom_word_viewbattle_t": [49, 443, 44, 24], 
+	"league_word_stop_enter_t": [2, 469, 104, 16], 
+	"roomteam_ready_t": [322, 2, 158, 318], 
+	"roomteam_room_master_bg": [221, 443, 125, 18], 
+	"roomteam_room_master_t": [950, 398, 45, 24], 
+	"roomteam_room_member_t": [2, 443, 45, 24], 
+	"roomteam_room_menber_bg": [95, 443, 124, 21], 
+}

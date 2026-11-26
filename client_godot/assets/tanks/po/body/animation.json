@@ -1,0 +1,1824 @@
+{
+  "cell_size": [
+    150,
+    150
+  ],
+  "evidence": [
+    {
+      "class": "asBasic.tool.CBitmapUtil",
+      "methods": [
+        "splitBitmap",
+        "splitBitmapHandle"
+      ],
+      "sha256": "bc989a4ce238c7091c1f98d3ca66aeb507873f2548760f4f382cbfe8686a456b",
+      "source": "primary/asBasic/tool/CBitmapUtil.as"
+    },
+    {
+      "class": "model.tank.TankComponentExhibitResModel",
+      "methods": [
+        "setBmpList",
+        "getBodyImageList",
+        "getCrenelImage"
+      ],
+      "sha256": "8be1de684a1012de7215b9360a1de5e879c9ce6e1972b5cc5ed4be5729c5d8c1",
+      "source": "primary/model/tank/TankComponentExhibitResModel.as"
+    },
+    {
+      "class": "model.tank.TankImageTool",
+      "methods": [
+        "getMinBmpDataStruct"
+      ],
+      "sha256": "28f9a362968ea1749591b1e4aba81b97506b2613877f96dfdd5f3987615bba4c",
+      "source": "primary/model/tank/TankImageTool.as"
+    },
+    {
+      "class": "asBasic.view.ui.CAnimation",
+      "methods": [
+        "gotoAndPlay",
+        "process"
+      ],
+      "sha256": "f91f99879ce7ca1fd3d4025fbbf212fd54ab4a04101ffacfcc2acc3f06b6a1cb",
+      "source": "primary/asBasic/view/ui/CAnimation.as"
+    }
+  ],
+  "format": "xml_grid_atlas",
+  "frames": [
+    {
+      "empty": false,
+      "index": 0,
+      "page": 0,
+      "pivot": [
+        31,
+        56
+      ],
+      "rect": [
+        1,
+        1,
+        72,
+        109
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 0,
+      "source_rect": [
+        0,
+        0,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        44,
+        19
+      ]
+    },
+    {
+      "empty": false,
+      "index": 1,
+      "page": 0,
+      "pivot": [
+        31,
+        56
+      ],
+      "rect": [
+        74,
+        1,
+        72,
+        108
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 1,
+      "source_rect": [
+        150,
+        0,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        44,
+        19
+      ]
+    },
+    {
+      "empty": false,
+      "index": 2,
+      "page": 0,
+      "pivot": [
+        31,
+        56
+      ],
+      "rect": [
+        147,
+        1,
+        72,
+        108
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 2,
+      "source_rect": [
+        300,
+        0,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        44,
+        19
+      ]
+    },
+    {
+      "empty": false,
+      "index": 3,
+      "page": 0,
+      "pivot": [
+        31,
+        56
+      ],
+      "rect": [
+        220,
+        1,
+        72,
+        109
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 3,
+      "source_rect": [
+        450,
+        0,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        44,
+        19
+      ]
+    },
+    {
+      "empty": false,
+      "index": 4,
+      "page": 0,
+      "pivot": [
+        31,
+        56
+      ],
+      "rect": [
+        293,
+        1,
+        72,
+        109
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 4,
+      "source_rect": [
+        600,
+        0,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        44,
+        19
+      ]
+    },
+    {
+      "empty": false,
+      "index": 5,
+      "page": 0,
+      "pivot": [
+        31,
+        56
+      ],
+      "rect": [
+        366,
+        1,
+        72,
+        108
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 5,
+      "source_rect": [
+        750,
+        0,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        44,
+        19
+      ]
+    },
+    {
+      "empty": false,
+      "index": 6,
+      "page": 0,
+      "pivot": [
+        33,
+        45
+      ],
+      "rect": [
+        439,
+        1,
+        94,
+        97
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 6,
+      "source_rect": [
+        0,
+        150,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        42,
+        30
+      ]
+    },
+    {
+      "empty": false,
+      "index": 7,
+      "page": 0,
+      "pivot": [
+        33,
+        44
+      ],
+      "rect": [
+        534,
+        1,
+        95,
+        95
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 7,
+      "source_rect": [
+        150,
+        150,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        42,
+        31
+      ]
+    },
+    {
+      "empty": false,
+      "index": 8,
+      "page": 0,
+      "pivot": [
+        38,
+        43
+      ],
+      "rect": [
+        630,
+        1,
+        100,
+        94
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 8,
+      "source_rect": [
+        300,
+        150,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        37,
+        32
+      ]
+    },
+    {
+      "empty": false,
+      "index": 9,
+      "page": 0,
+      "pivot": [
+        38,
+        45
+      ],
+      "rect": [
+        731,
+        1,
+        99,
+        97
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 9,
+      "source_rect": [
+        450,
+        150,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        37,
+        30
+      ]
+    },
+    {
+      "empty": false,
+      "index": 10,
+      "page": 0,
+      "pivot": [
+        32,
+        45
+      ],
+      "rect": [
+        831,
+        1,
+        92,
+        97
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 10,
+      "source_rect": [
+        600,
+        150,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        43,
+        30
+      ]
+    },
+    {
+      "empty": false,
+      "index": 11,
+      "page": 0,
+      "pivot": [
+        32,
+        45
+      ],
+      "rect": [
+        924,
+        1,
+        91,
+        97
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 11,
+      "source_rect": [
+        750,
+        150,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        43,
+        30
+      ]
+    },
+    {
+      "empty": false,
+      "index": 12,
+      "page": 0,
+      "pivot": [
+        34,
+        26
+      ],
+      "rect": [
+        1,
+        111,
+        108,
+        76
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 12,
+      "source_rect": [
+        0,
+        300,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        41,
+        49
+      ]
+    },
+    {
+      "empty": false,
+      "index": 13,
+      "page": 0,
+      "pivot": [
+        34,
+        26
+      ],
+      "rect": [
+        110,
+        111,
+        108,
+        76
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 13,
+      "source_rect": [
+        150,
+        300,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        41,
+        49
+      ]
+    },
+    {
+      "empty": false,
+      "index": 14,
+      "page": 0,
+      "pivot": [
+        34,
+        26
+      ],
+      "rect": [
+        219,
+        111,
+        108,
+        76
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 14,
+      "source_rect": [
+        300,
+        300,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        41,
+        49
+      ]
+    },
+    {
+      "empty": false,
+      "index": 15,
+      "page": 0,
+      "pivot": [
+        34,
+        26
+      ],
+      "rect": [
+        328,
+        111,
+        108,
+        76
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 15,
+      "source_rect": [
+        450,
+        300,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        41,
+        49
+      ]
+    },
+    {
+      "empty": false,
+      "index": 16,
+      "page": 0,
+      "pivot": [
+        34,
+        26
+      ],
+      "rect": [
+        437,
+        111,
+        108,
+        76
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 16,
+      "source_rect": [
+        600,
+        300,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        41,
+        49
+      ]
+    },
+    {
+      "empty": false,
+      "index": 17,
+      "page": 0,
+      "pivot": [
+        34,
+        26
+      ],
+      "rect": [
+        546,
+        111,
+        108,
+        76
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 17,
+      "source_rect": [
+        750,
+        300,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        41,
+        49
+      ]
+    },
+    {
+      "empty": false,
+      "index": 18,
+      "page": 0,
+      "pivot": [
+        37,
+        28
+      ],
+      "rect": [
+        655,
+        111,
+        99,
+        96
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 18,
+      "source_rect": [
+        0,
+        450,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        38,
+        47
+      ]
+    },
+    {
+      "empty": false,
+      "index": 19,
+      "page": 0,
+      "pivot": [
+        32,
+        28
+      ],
+      "rect": [
+        755,
+        111,
+        94,
+        97
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 19,
+      "source_rect": [
+        150,
+        450,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        43,
+        47
+      ]
+    },
+    {
+      "empty": false,
+      "index": 20,
+      "page": 0,
+      "pivot": [
+        32,
+        27
+      ],
+      "rect": [
+        850,
+        111,
+        93,
+        96
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 20,
+      "source_rect": [
+        300,
+        450,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        43,
+        48
+      ]
+    },
+    {
+      "empty": false,
+      "index": 21,
+      "page": 0,
+      "pivot": [
+        32,
+        28
+      ],
+      "rect": [
+        1,
+        209,
+        94,
+        96
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 21,
+      "source_rect": [
+        450,
+        450,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        43,
+        47
+      ]
+    },
+    {
+      "empty": false,
+      "index": 22,
+      "page": 0,
+      "pivot": [
+        33,
+        28
+      ],
+      "rect": [
+        96,
+        209,
+        96,
+        96
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 22,
+      "source_rect": [
+        600,
+        450,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        42,
+        47
+      ]
+    },
+    {
+      "empty": false,
+      "index": 23,
+      "page": 0,
+      "pivot": [
+        38,
+        27
+      ],
+      "rect": [
+        193,
+        209,
+        101,
+        94
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 23,
+      "source_rect": [
+        750,
+        450,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        37,
+        48
+      ]
+    },
+    {
+      "empty": false,
+      "index": 24,
+      "page": 0,
+      "pivot": [
+        31,
+        27
+      ],
+      "rect": [
+        295,
+        209,
+        73,
+        102
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 24,
+      "source_rect": [
+        0,
+        600,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        44,
+        48
+      ]
+    },
+    {
+      "empty": false,
+      "index": 25,
+      "page": 0,
+      "pivot": [
+        31,
+        27
+      ],
+      "rect": [
+        369,
+        209,
+        72,
+        102
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 25,
+      "source_rect": [
+        150,
+        600,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        44,
+        48
+      ]
+    },
+    {
+      "empty": false,
+      "index": 26,
+      "page": 0,
+      "pivot": [
+        31,
+        26
+      ],
+      "rect": [
+        442,
+        209,
+        72,
+        101
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 26,
+      "source_rect": [
+        300,
+        600,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        44,
+        49
+      ]
+    },
+    {
+      "empty": false,
+      "index": 27,
+      "page": 0,
+      "pivot": [
+        31,
+        27
+      ],
+      "rect": [
+        515,
+        209,
+        73,
+        102
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 27,
+      "source_rect": [
+        450,
+        600,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        44,
+        48
+      ]
+    },
+    {
+      "empty": false,
+      "index": 28,
+      "page": 0,
+      "pivot": [
+        31,
+        27
+      ],
+      "rect": [
+        589,
+        209,
+        73,
+        102
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 28,
+      "source_rect": [
+        600,
+        600,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        44,
+        48
+      ]
+    },
+    {
+      "empty": false,
+      "index": 29,
+      "page": 0,
+      "pivot": [
+        31,
+        26
+      ],
+      "rect": [
+        663,
+        209,
+        72,
+        101
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 29,
+      "source_rect": [
+        750,
+        600,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        44,
+        49
+      ]
+    },
+    {
+      "empty": false,
+      "index": 30,
+      "page": 0,
+      "pivot": [
+        50,
+        75
+      ],
+      "rect": [
+        736,
+        209,
+        94,
+        144
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 30,
+      "source_rect": [
+        0,
+        750,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        25,
+        0
+      ]
+    },
+    {
+      "empty": false,
+      "index": 31,
+      "page": 0,
+      "pivot": [
+        51,
+        75
+      ],
+      "rect": [
+        831,
+        209,
+        95,
+        143
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 31,
+      "source_rect": [
+        150,
+        750,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        24,
+        0
+      ]
+    },
+    {
+      "empty": false,
+      "index": 32,
+      "page": 0,
+      "pivot": [
+        52,
+        75
+      ],
+      "rect": [
+        927,
+        209,
+        96,
+        143
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 32,
+      "source_rect": [
+        300,
+        750,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        23,
+        0
+      ]
+    },
+    {
+      "empty": false,
+      "index": 33,
+      "page": 0,
+      "pivot": [
+        50,
+        75
+      ],
+      "rect": [
+        1,
+        354,
+        94,
+        144
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 33,
+      "source_rect": [
+        450,
+        750,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        25,
+        0
+      ]
+    },
+    {
+      "empty": false,
+      "index": 34,
+      "page": 0,
+      "pivot": [
+        50,
+        75
+      ],
+      "rect": [
+        96,
+        354,
+        94,
+        144
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 34,
+      "source_rect": [
+        600,
+        750,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        25,
+        0
+      ]
+    },
+    {
+      "empty": false,
+      "index": 35,
+      "page": 0,
+      "pivot": [
+        50,
+        75
+      ],
+      "rect": [
+        191,
+        354,
+        93,
+        145
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 35,
+      "source_rect": [
+        750,
+        750,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        25,
+        0
+      ]
+    },
+    {
+      "empty": false,
+      "index": 36,
+      "page": 0,
+      "pivot": [
+        62,
+        26
+      ],
+      "rect": [
+        285,
+        354,
+        106,
+        76
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 36,
+      "source_rect": [
+        0,
+        900,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        13,
+        49
+      ]
+    },
+    {
+      "empty": false,
+      "index": 37,
+      "page": 0,
+      "pivot": [
+        62,
+        26
+      ],
+      "rect": [
+        392,
+        354,
+        105,
+        76
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 37,
+      "source_rect": [
+        150,
+        900,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        13,
+        49
+      ]
+    },
+    {
+      "empty": false,
+      "index": 38,
+      "page": 0,
+      "pivot": [
+        62,
+        25
+      ],
+      "rect": [
+        498,
+        354,
+        105,
+        75
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 38,
+      "source_rect": [
+        300,
+        900,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        13,
+        50
+      ]
+    },
+    {
+      "empty": false,
+      "index": 39,
+      "page": 0,
+      "pivot": [
+        62,
+        26
+      ],
+      "rect": [
+        604,
+        354,
+        106,
+        76
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 39,
+      "source_rect": [
+        450,
+        900,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        13,
+        49
+      ]
+    },
+    {
+      "empty": false,
+      "index": 40,
+      "page": 0,
+      "pivot": [
+        62,
+        26
+      ],
+      "rect": [
+        711,
+        354,
+        106,
+        76
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 40,
+      "source_rect": [
+        600,
+        900,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        13,
+        49
+      ]
+    },
+    {
+      "empty": false,
+      "index": 41,
+      "page": 0,
+      "pivot": [
+        62,
+        25
+      ],
+      "rect": [
+        818,
+        354,
+        105,
+        75
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 41,
+      "source_rect": [
+        750,
+        900,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        13,
+        50
+      ]
+    },
+    {
+      "empty": false,
+      "index": 42,
+      "page": 0,
+      "pivot": [
+        49,
+        44
+      ],
+      "rect": [
+        924,
+        354,
+        93,
+        96
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 42,
+      "source_rect": [
+        0,
+        1050,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        26,
+        31
+      ]
+    },
+    {
+      "empty": false,
+      "index": 43,
+      "page": 0,
+      "pivot": [
+        49,
+        45
+      ],
+      "rect": [
+        1,
+        500,
+        92,
+        98
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 43,
+      "source_rect": [
+        150,
+        1050,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        26,
+        30
+      ]
+    },
+    {
+      "empty": false,
+      "index": 44,
+      "page": 0,
+      "pivot": [
+        49,
+        45
+      ],
+      "rect": [
+        94,
+        500,
+        91,
+        97
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 44,
+      "source_rect": [
+        300,
+        1050,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        26,
+        30
+      ]
+    },
+    {
+      "empty": false,
+      "index": 45,
+      "page": 0,
+      "pivot": [
+        49,
+        44
+      ],
+      "rect": [
+        186,
+        500,
+        92,
+        97
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 45,
+      "source_rect": [
+        450,
+        1050,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        26,
+        31
+      ]
+    },
+    {
+      "empty": false,
+      "index": 46,
+      "page": 0,
+      "pivot": [
+        50,
+        44
+      ],
+      "rect": [
+        279,
+        500,
+        94,
+        96
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 46,
+      "source_rect": [
+        600,
+        1050,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        25,
+        31
+      ]
+    },
+    {
+      "empty": false,
+      "index": 47,
+      "page": 0,
+      "pivot": [
+        51,
+        43
+      ],
+      "rect": [
+        374,
+        500,
+        94,
+        94
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 47,
+      "source_rect": [
+        750,
+        1050,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        24,
+        32
+      ]
+    }
+  ],
+  "grid": [
+    6,
+    8
+  ],
+  "ignored_partial_edge": [
+    0,
+    0
+  ],
+  "pages": [
+    {
+      "file": "atlas-00.png",
+      "size": [
+        1024,
+        599
+      ]
+    }
+  ],
+  "runtime": {
+    "body_attack_boundary": -1,
+    "cannon_autoplay": null,
+    "cannon_fixed_angle": null,
+    "cannon_last_cell_first": false,
+    "direction": "round(normalized_angle/45)%8; residual angle rotates body container",
+    "idle_animation": 0,
+    "xml_offset": [
+      -75,
+      -75
+    ]
+  },
+  "sampling": "nearest, 1px transparent gutters, no rotation",
+  "schema_version": 1,
+  "source": {
+    "logical": "zh_CN/tank/body/gongfuxiongmao03_body.png",
+    "mapped": "zh_CN/tank/body/8ab5c272a89f91ebdecf880539900fa5.png",
+    "physical": "8ab5c272a89f91ebdecf880539900fa5.png",
+    "sha256": "1a7f74301f1b2f1b7b38177f49c678da2d99c0976ee7377ce0312dce752ea9d2"
+  },
+  "timeline": {
+    "clips": [
+      {
+        "angle_degrees": 0,
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "angle_degrees": 45,
+        "frames": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "angle_degrees": 90,
+        "frames": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      {
+        "angle_degrees": 135,
+        "frames": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ]
+      },
+      {
+        "angle_degrees": 180,
+        "frames": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ]
+      },
+      {
+        "angle_degrees": 225,
+        "frames": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ]
+      },
+      {
+        "angle_degrees": 270,
+        "frames": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      {
+        "angle_degrees": 315,
+        "frames": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      }
+    ],
+    "clock": "CAnimation.process callbacks; no fixed FPS in this path",
+    "ticks_per_frame": 2
+  },
+  "xml_row": {
+    "iGridHeight": "150",
+    "iGridWidth": "150",
+    "iOffsetX": "-75",
+    "iOffsetY": "-75",
+    "iReuseA": "6",
+    "iReuseF": "2",
+    "iType": "4",
+    "nTemplateId": "5026",
+    "strReuseB": "gaoda05_death.swf",
+    "strReuseC": "tank_blow.swf",
+    "szAvatarImage1": "gongfuxiongmao03.png",
+    "szImageFile": "gongfuxiongmao03_body"
+  }
+}

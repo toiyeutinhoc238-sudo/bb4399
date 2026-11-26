@@ -1,0 +1,424 @@
+{
+  "cell_size": [
+    150,
+    150
+  ],
+  "evidence": [
+    {
+      "class": "asBasic.tool.CBitmapUtil",
+      "methods": [
+        "splitBitmap",
+        "splitBitmapHandle"
+      ],
+      "sha256": "bc989a4ce238c7091c1f98d3ca66aeb507873f2548760f4f382cbfe8686a456b",
+      "source": "primary/asBasic/tool/CBitmapUtil.as"
+    },
+    {
+      "class": "model.tank.TankComponentExhibitResModel",
+      "methods": [
+        "setBmpList",
+        "getBodyImageList",
+        "getCrenelImage"
+      ],
+      "sha256": "8be1de684a1012de7215b9360a1de5e879c9ce6e1972b5cc5ed4be5729c5d8c1",
+      "source": "primary/model/tank/TankComponentExhibitResModel.as"
+    },
+    {
+      "class": "model.tank.TankImageTool",
+      "methods": [
+        "getMinBmpDataStruct"
+      ],
+      "sha256": "28f9a362968ea1749591b1e4aba81b97506b2613877f96dfdd5f3987615bba4c",
+      "source": "primary/model/tank/TankImageTool.as"
+    },
+    {
+      "class": "asBasic.view.ui.CAnimation",
+      "methods": [
+        "gotoAndPlay",
+        "process"
+      ],
+      "sha256": "f91f99879ce7ca1fd3d4025fbbf212fd54ab4a04101ffacfcc2acc3f06b6a1cb",
+      "source": "primary/asBasic/view/ui/CAnimation.as"
+    }
+  ],
+  "format": "xml_grid_atlas",
+  "frames": [
+    {
+      "empty": false,
+      "index": 0,
+      "page": 0,
+      "pivot": [
+        53,
+        55
+      ],
+      "rect": [
+        1,
+        1,
+        116,
+        130
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 0,
+      "source_rect": [
+        0,
+        0,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        22,
+        20
+      ]
+    },
+    {
+      "empty": false,
+      "index": 1,
+      "page": 0,
+      "pivot": [
+        61,
+        27
+      ],
+      "rect": [
+        118,
+        1,
+        133,
+        102
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 1,
+      "source_rect": [
+        0,
+        150,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        14,
+        48
+      ]
+    },
+    {
+      "empty": false,
+      "index": 2,
+      "page": 0,
+      "pivot": [
+        60,
+        43
+      ],
+      "rect": [
+        252,
+        1,
+        135,
+        115
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 2,
+      "source_rect": [
+        0,
+        300,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        15,
+        32
+      ]
+    },
+    {
+      "empty": false,
+      "index": 3,
+      "page": 0,
+      "pivot": [
+        60,
+        51
+      ],
+      "rect": [
+        388,
+        1,
+        108,
+        126
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 3,
+      "source_rect": [
+        0,
+        450,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        15,
+        24
+      ]
+    },
+    {
+      "empty": false,
+      "index": 4,
+      "page": 0,
+      "pivot": [
+        50,
+        46
+      ],
+      "rect": [
+        497,
+        1,
+        114,
+        121
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 4,
+      "source_rect": [
+        0,
+        600,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        25,
+        29
+      ]
+    },
+    {
+      "empty": false,
+      "index": 5,
+      "page": 0,
+      "pivot": [
+        68,
+        49
+      ],
+      "rect": [
+        612,
+        1,
+        141,
+        109
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 5,
+      "source_rect": [
+        0,
+        750,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        7,
+        26
+      ]
+    },
+    {
+      "empty": false,
+      "index": 6,
+      "page": 0,
+      "pivot": [
+        74,
+        41
+      ],
+      "rect": [
+        754,
+        1,
+        143,
+        115
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 6,
+      "source_rect": [
+        0,
+        900,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        1,
+        34
+      ]
+    },
+    {
+      "empty": false,
+      "index": 7,
+      "page": 0,
+      "pivot": [
+        39,
+        49
+      ],
+      "rect": [
+        898,
+        1,
+        110,
+        124
+      ],
+      "registration": [
+        75,
+        75
+      ],
+      "source_cell": 7,
+      "source_rect": [
+        0,
+        1050,
+        150,
+        150
+      ],
+      "source_size": [
+        150,
+        150
+      ],
+      "trim_offset": [
+        36,
+        26
+      ]
+    }
+  ],
+  "grid": [
+    1,
+    8
+  ],
+  "ignored_partial_edge": [
+    0,
+    0
+  ],
+  "pages": [
+    {
+      "file": "atlas-00.png",
+      "size": [
+        1009,
+        132
+      ]
+    }
+  ],
+  "runtime": {
+    "body_attack_boundary": -1,
+    "cannon_autoplay": null,
+    "cannon_fixed_angle": null,
+    "cannon_last_cell_first": false,
+    "direction": "round(normalized_angle/45)%8; residual angle rotates body container",
+    "idle_animation": 0,
+    "xml_offset": [
+      -75,
+      -75
+    ]
+  },
+  "sampling": "nearest, 1px transparent gutters, no rotation",
+  "schema_version": 1,
+  "source": {
+    "logical": "zh_CN/tank/body/gaoda03_body.png",
+    "mapped": "zh_CN/tank/body/7c97304d5baea1475e345249ab789b70.png",
+    "physical": "tank/body/7c97304d5baea1475e345249ab789b70.png",
+    "sha256": "641ffa25837912716cb0775a037f2b8a3a6135482800144c2686c8adce4e1b31"
+  },
+  "timeline": {
+    "clips": [
+      {
+        "angle_degrees": 0,
+        "frames": [
+          0
+        ]
+      },
+      {
+        "angle_degrees": 45,
+        "frames": [
+          1
+        ]
+      },
+      {
+        "angle_degrees": 90,
+        "frames": [
+          2
+        ]
+      },
+      {
+        "angle_degrees": 135,
+        "frames": [
+          3
+        ]
+      },
+      {
+        "angle_degrees": 180,
+        "frames": [
+          4
+        ]
+      },
+      {
+        "angle_degrees": 225,
+        "frames": [
+          5
+        ]
+      },
+      {
+        "angle_degrees": 270,
+        "frames": [
+          6
+        ]
+      },
+      {
+        "angle_degrees": 315,
+        "frames": [
+          7
+        ]
+      }
+    ],
+    "clock": "CAnimation.process callbacks; no fixed FPS in this path",
+    "ticks_per_frame": 2
+  },
+  "xml_row": {
+    "iGridHeight": "150",
+    "iGridWidth": "150",
+    "iOffsetX": "-75",
+    "iOffsetY": "-75",
+    "iReuseA": "1",
+    "iReuseF": "2",
+    "iType": "4",
+    "nTemplateId": "5006",
+    "strReuseB": "gaoda03_death.swf",
+    "strReuseC": "tank_blow.swf",
+    "szAvatarImage1": "gaoda03.png",
+    "szImageFile": "gaoda03_body"
+  }
+}

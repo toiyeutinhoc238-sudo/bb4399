@@ -1,0 +1,15 @@
+[gd_resource type="FontVariation" format=3]
+
+[ext_resource type="FontFile" path="res://assets/fonts/OpenSans-VF.tres" id="1"]
+[ext_resource type="FontFile" uid="uid://dtq3jd1o274dj" path="res://assets/fonts/LCBBSans-Regular.ttf" id="2"]
+
+[resource]
+fallbacks = [ExtResource("2")]
+base_font = ExtResource("1")
+variation_opentype = {
+2003072104: 100,
+2003265652: 400
+}
+opentype_features = {
+1936928818: 1
+}

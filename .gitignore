@@ -1,0 +1,29 @@
+# Secrets & local runtime data
+.env
+server/.env
+server/data/
+*.log
+
+# Dependencies
+node_modules/
+server/node_modules/
+
+# Large static game assets (~2 GB, host separately on CDN/VPS)
+server/public/
+
+# Godot cache & builds
+client_godot/.godot/
+client_godot/.import/
+client_godot/android/
+*.apk
+*.aab
+*.ipa
+*.exe
+*.pck
+!client_godot/assets.sparsepck
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,22 @@
+{
+ "v": 1,
+ "note": "pc1: tin trên launcher app PC (Windows). Tối đa 5 mục, mỗi mục <=160 ký tự; tag <=10 ký tự. Đổi nội dung = sửa tệp này rồi ship như thường (launcher đọc từ pck đang chạy).",
+ "items": [
+  {
+   "tag": "PC",
+   "text": "Bản PC tự ưu tiên card đồ hoạ rời trên máy có 2 card — mượt hơn chơi trên trình duyệt."
+  },
+  {
+   "tag": "Cập nhật",
+   "text": "Launcher tự tải bản mới mỗi lần mở, không cần cài lại."
+  },
+  {
+   "tag": "Tài khoản",
+   "text": "Đăng nhập bằng tài khoản như bản web; nhân vật, túi đồ dùng chung."
+  },
+  {
+   "tag": "Mẹo",
+   "text": "F11 hoặc Alt+Enter: bật / tắt toàn màn hình. Esc: thoát toàn màn hình."
+  }
+ ]
+}

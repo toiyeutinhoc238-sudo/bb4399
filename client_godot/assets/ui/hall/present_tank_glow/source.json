@@ -1,0 +1,649 @@
+{
+  "logical": "zh_CN/swf/ui/draw.swf",
+  "mapped": "zh_CN/swf/ui/a8443dc8f3847e09246fe9ba3c69dee9.swf",
+  "physical": "/root/BangBang-Teddy-main-test/swf_dec/a8443dc8f3847e09246fe9ba3c69dee9.swf",
+  "md5": "a8443dc8f3847e09246fe9ba3c69dee9",
+  "fps": 24,
+  "count": 23,
+  "viewport": [
+    -118,
+    -94,
+    231,
+    185
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "page": 0,
+      "rect": [
+        1,
+        1,
+        219,
+        168
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        12
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        82
+      ],
+      "empty": false
+    },
+    {
+      "index": 1,
+      "page": 0,
+      "rect": [
+        221,
+        1,
+        219,
+        168
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        12
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        82
+      ],
+      "empty": false
+    },
+    {
+      "index": 2,
+      "page": 0,
+      "rect": [
+        441,
+        1,
+        219,
+        168
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        12
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        82
+      ],
+      "empty": false
+    },
+    {
+      "index": 3,
+      "page": 0,
+      "rect": [
+        661,
+        1,
+        222,
+        169
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        11
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        83
+      ],
+      "empty": false
+    },
+    {
+      "index": 4,
+      "page": 0,
+      "rect": [
+        884,
+        1,
+        222,
+        169
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        11
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        83
+      ],
+      "empty": false
+    },
+    {
+      "index": 5,
+      "page": 0,
+      "rect": [
+        1107,
+        1,
+        222,
+        169
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        11
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        83
+      ],
+      "empty": false
+    },
+    {
+      "index": 6,
+      "page": 0,
+      "rect": [
+        1330,
+        1,
+        222,
+        168
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        12
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        82
+      ],
+      "empty": false
+    },
+    {
+      "index": 7,
+      "page": 0,
+      "rect": [
+        1553,
+        1,
+        222,
+        168
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        12
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        82
+      ],
+      "empty": false
+    },
+    {
+      "index": 8,
+      "page": 0,
+      "rect": [
+        1776,
+        1,
+        222,
+        168
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        12
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        82
+      ],
+      "empty": false
+    },
+    {
+      "index": 9,
+      "page": 0,
+      "rect": [
+        1,
+        171,
+        221,
+        168
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        12
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        82
+      ],
+      "empty": false
+    },
+    {
+      "index": 10,
+      "page": 0,
+      "rect": [
+        223,
+        171,
+        221,
+        168
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        12
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        82
+      ],
+      "empty": false
+    },
+    {
+      "index": 11,
+      "page": 0,
+      "rect": [
+        445,
+        171,
+        221,
+        168
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        12
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        82
+      ],
+      "empty": false
+    },
+    {
+      "index": 12,
+      "page": 0,
+      "rect": [
+        667,
+        171,
+        220,
+        168
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        12
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        82
+      ],
+      "empty": false
+    },
+    {
+      "index": 13,
+      "page": 0,
+      "rect": [
+        888,
+        171,
+        220,
+        168
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        12
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        82
+      ],
+      "empty": false
+    },
+    {
+      "index": 14,
+      "page": 0,
+      "rect": [
+        1109,
+        171,
+        220,
+        168
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        12
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        82
+      ],
+      "empty": false
+    },
+    {
+      "index": 15,
+      "page": 0,
+      "rect": [
+        1330,
+        171,
+        220,
+        168
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        12
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        82
+      ],
+      "empty": false
+    },
+    {
+      "index": 16,
+      "page": 0,
+      "rect": [
+        1551,
+        171,
+        220,
+        168
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        12
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        82
+      ],
+      "empty": false
+    },
+    {
+      "index": 17,
+      "page": 0,
+      "rect": [
+        1772,
+        171,
+        220,
+        168
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        12
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        82
+      ],
+      "empty": false
+    },
+    {
+      "index": 18,
+      "page": 0,
+      "rect": [
+        1,
+        340,
+        220,
+        172
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        8
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        86
+      ],
+      "empty": false
+    },
+    {
+      "index": 19,
+      "page": 0,
+      "rect": [
+        222,
+        340,
+        220,
+        172
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        8
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        86
+      ],
+      "empty": false
+    },
+    {
+      "index": 20,
+      "page": 0,
+      "rect": [
+        443,
+        340,
+        220,
+        172
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        8
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        86
+      ],
+      "empty": false
+    },
+    {
+      "index": 21,
+      "page": 0,
+      "rect": [
+        664,
+        340,
+        217,
+        165
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        15
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        79
+      ],
+      "empty": false
+    },
+    {
+      "index": 22,
+      "page": 0,
+      "rect": [
+        882,
+        340,
+        217,
+        165
+      ],
+      "source_size": [
+        231,
+        185
+      ],
+      "trim_offset": [
+        6,
+        15
+      ],
+      "registration": [
+        118,
+        94
+      ],
+      "pivot": [
+        112,
+        79
+      ],
+      "empty": false
+    }
+  ],
+  "pages": [
+    {
+      "file": "atlas-00.png",
+      "size": [
+        1999,
+        513
+      ]
+    }
+  ],
+  "actions_not_executed": {},
+  "renderer": "assetlib/FFDecFrames.java (existing offline adapter)",
+  "pixel_roundtrip": "23/23 frames identical RGBA"
+}
