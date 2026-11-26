@@ -20,15 +20,19 @@ Dự án gồm 2 phần đã được tối ưu sẵn để chạy **Local/LAN**
    - Thêm IP `0.0.0.0/0` để máy chủ Render kết nối được vào cluster.
 2. **Cloudflare R2 (host miễn phí ~2 GB asset hình ảnh / bản đồ / nhạc)**:
    - Tạo 1 Bucket trên Cloudflare R2, bật **Public Development URL** (hoặc custom domain) và thêm **CORS Policy** cho phép `GET`/`HEAD` từ `*`.
-   - Upload toàn bộ thư mục `server/public/godot/` vào bucket sao cho đường dẫn công khai có dạng:
-     `https://<your-r2-domain>/godot/a/index.json` và `https://<your-r2-domain>/godot/av/...`
+   - Tạo **R2 API Token** (`Object Read & Write`), điền `R2_ACCOUNT_ID`, `R2_BUCKET`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` vào `server/.env` rồi chạy 1 lệnh tự đẩy toàn bộ 23.113 file `server/public/godot/` lên `godot/` (đa luồng, có resume nếu rớt mạng):
+     ```bash
+     cd server
+     npm run upload:r2
+     ```
 3. **Render Dashboard → New → Blueprint**:
    - Chọn repo `bb4399` — Render tự đọc `render.yaml` (khu vực **Singapore** cho ping thấp tại Việt Nam, `rootDir: server`, health check `/healthz`).
    - Điền 2 biến môi trường bí mật:
      - `MONGODB_URI`: chuỗi kết nối Atlas (`mongodb+srv://<user>:<pass>@<cluster>.mongodb.net/bangbang?retryWrites=true&w=majority`)
      - `ASSET_CDN_URL`: URL gốc của Cloudflare R2 (ví dụ `https://pub-xxxxxxxxxxxx.r2.dev`)
 4. **Bật Web Game chơi trực tiếp trên trình duyệt (tùy chọn)**:
-   - Mở `client_godot/project.godot` bằng **Godot 4.7.2** → Export **Web (HTML5)** (tắt Thread Support để chạy mượt cả iOS Safari) vào thư mục `server/web/` rồi push lên GitHub.
+   - Mở `client_godot/project.godot` bằng **Godot 4.7.2** → Export **Web (HTML5)** (tắt Thread Support để chạy mượt cả iOS Safari) vào thư mục `server/web/`.
+   - Chạy `npm run compress:web` trong `server/` để nén sẵn `.wasm`/`.pck`/`.js` sang `.br` (Brotli) giúp web tải nhanh gấp 3 lần, rồi push `server/web/` lên GitHub.
    - Khi chưa có bản export trong `server/web/`, mở link Render sẽ hiển thị trang trạng thái server + hướng dẫn kết nối nhanh.
 
 ---

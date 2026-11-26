@@ -26,8 +26,8 @@ run/main_scene.android="res://android_boot.tscn"
 
 native_login_host="127.0.0.1"
 native_login_port=9000
-android_origin="http://127.0.0.1:8080"
-android_asset_root="http://127.0.0.1:8080/godot/a/"
+android_origin="https://bb4399-server.onrender.com"
+android_asset_root="https://pub-6617e4df2f4d4274bfd5ce8439aa34bb.r2.dev/godot/a/"
 android_page=""
 
 [display]
