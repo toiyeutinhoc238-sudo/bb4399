@@ -3,6 +3,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const GENERATED_PROTO_PATH = path.resolve(__dirname, "./generated/protocol_data.json");
 const CLIENT_PROTO_DIR = path.resolve(__dirname, "../../client_godot/net/battle_protocol");
 
 const MAX_BODY_BYTES = 65527;
@@ -58,8 +59,22 @@ function parseGdDict(filePath, constName) {
   return JSON.parse(raw);
 }
 
-export const SCHEMA = parseGdDict(path.join(CLIENT_PROTO_DIR, "protocol_schema.gd"), "CLASSES");
-export const BY_ID = parseGdDict(path.join(CLIENT_PROTO_DIR, "message_ids.gd"), "BY_ID");
+function loadProtocolTables() {
+  if (fs.existsSync(GENERATED_PROTO_PATH)) {
+    const bundle = JSON.parse(fs.readFileSync(GENERATED_PROTO_PATH, "utf8"));
+    if (bundle?.schema && bundle?.byId) {
+      return { schema: bundle.schema, byId: bundle.byId };
+    }
+  }
+  return {
+    schema: parseGdDict(path.join(CLIENT_PROTO_DIR, "protocol_schema.gd"), "CLASSES"),
+    byId: parseGdDict(path.join(CLIENT_PROTO_DIR, "message_ids.gd"), "BY_ID"),
+  };
+}
+
+const loadedProto = loadProtocolTables();
+export const SCHEMA = loadedProto.schema;
+export const BY_ID = loadedProto.byId;
 export const BY_CLASS = {};
 for (const [idStr, cls] of Object.entries(BY_ID)) {
   BY_CLASS[cls] = Number(idStr);

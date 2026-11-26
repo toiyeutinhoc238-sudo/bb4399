@@ -1,21 +1,23 @@
 import crypto from "crypto";
 import fs from "fs";
 import path from "path";
+import { promisify } from "util";
 import { fileURLToPath } from "url";
 import { MongoClient } from "mongodb";
 import { STARTER_TANKS, tankExternalId } from "./catalog.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const LOCAL_STORE_PATH = path.resolve(__dirname, "../data/local_store.json");
+const scryptAsync = promisify(crypto.scrypt);
 
-function hashPassword(password, saltHex = crypto.randomBytes(16).toString("hex")) {
-  const hash = crypto.scryptSync(String(password), saltHex, 32).toString("hex");
-  return { salt: saltHex, hash };
+async function hashPassword(password, saltHex = crypto.randomBytes(16).toString("hex")) {
+  const buf = await scryptAsync(String(password), saltHex, 32);
+  return { salt: saltHex, hash: Buffer.from(buf).toString("hex") };
 }
 
-function verifyPassword(password, salt, expectedHash) {
+async function verifyPassword(password, salt, expectedHash) {
   if (!salt || !expectedHash) return false;
-  const actual = crypto.scryptSync(String(password), salt, 32);
+  const actual = Buffer.from(await scryptAsync(String(password), salt, 32));
   const expected = Buffer.from(expectedHash, "hex");
   return actual.length === expected.length && crypto.timingSafeEqual(actual, expected);
 }
@@ -95,6 +97,8 @@ export class Database {
     this.mode = "local";
     this.client = null;
     this.db = null;
+    this._lastPingAt = 0;
+    this._lastPingOk = true;
     this.local = {
       nextAccountId: 10001,
       accounts: [],
@@ -110,14 +114,23 @@ export class Database {
     if (!isPlaceholder) {
       try {
         this.client = new MongoClient(cleanUri, {
+          maxPoolSize: Number(process.env.MONGO_MAX_POOL_SIZE || 20),
+          minPoolSize: Number(process.env.MONGO_MIN_POOL_SIZE || 1),
+          maxIdleTimeMS: 60000,
           serverSelectionTimeoutMS: 8000,
           connectTimeoutMS: 8000,
+          socketTimeoutMS: 45000,
+          retryWrites: true,
+          retryReads: true,
+          compressors: ["zlib"],
         });
         await this.client.connect();
         this.db = this.client.db(dbName);
         await this.db.command({ ping: 1 });
         await this._ensureIndexes();
         this.mode = "mongodb";
+        this._lastPingAt = Date.now();
+        this._lastPingOk = true;
         console.log(`[db] Connected to MongoDB Atlas (database: ${dbName})`);
         return;
       } catch (err) {
@@ -138,16 +151,35 @@ export class Database {
     this.mode = "local";
   }
 
+  async isHealthy() {
+    if (this.mode !== "mongodb" || !this.db) return true;
+    const now = Date.now();
+    if (now - this._lastPingAt < 30000) return this._lastPingOk;
+    try {
+      await this.db.command({ ping: 1 });
+      this._lastPingAt = now;
+      this._lastPingOk = true;
+      return true;
+    } catch {
+      this._lastPingAt = now;
+      this._lastPingOk = false;
+      return false;
+    }
+  }
+
   async _ensureIndexes() {
-    await this.db.collection("accounts").createIndex({ usernameLower: 1 }, { unique: true });
-    await this.db.collection("accounts").createIndex({ accountId: 1 }, { unique: true });
-    await this.db.collection("characters").createIndex({ accountId: 1 }, { unique: true });
-    await this.db.collection("characters").createIndex({ nameLower: 1 }, { unique: true });
-    await this.db.collection("characters").createIndex({ charUuid: 1 }, { unique: true });
-    await this.db.collection("sessions").createIndex({ expiresAt: 1 }, { expireAfterSeconds: 0 });
-    await this.db.collection("sessions").createIndex({ authToken: 1 });
-    await this.db.collection("sessions").createIndex({ sessionKey: 1 });
-    await this.db.collection("matches").createIndex({ endedAt: -1 });
+    await Promise.all([
+      this.db.collection("accounts").createIndex({ usernameLower: 1 }, { unique: true }),
+      this.db.collection("accounts").createIndex({ accountId: 1 }, { unique: true }),
+      this.db.collection("characters").createIndex({ accountId: 1 }, { unique: true }),
+      this.db.collection("characters").createIndex({ nameLower: 1 }, { unique: true }),
+      this.db.collection("characters").createIndex({ charUuid: 1 }, { unique: true }),
+      this.db.collection("sessions").createIndex({ expiresAt: 1 }, { expireAfterSeconds: 0 }),
+      this.db.collection("sessions").createIndex({ authToken: 1 }),
+      this.db.collection("sessions").createIndex({ resumeToken: 1 }),
+      this.db.collection("sessions").createIndex({ accountId: 1, sessionKey: 1 }),
+      this.db.collection("matches").createIndex({ endedAt: -1 }),
+    ]);
   }
 
   _loadLocal() {
@@ -203,7 +235,7 @@ export class Database {
       return { ok: false, code: "EXISTS", error: "Tài khoản đã tồn tại." };
     }
     const accountId = await this._nextAccountId();
-    const { salt, hash } = hashPassword(password);
+    const { salt, hash } = await hashPassword(password);
     const doc = {
       accountId,
       username: clean,
@@ -243,7 +275,7 @@ export class Database {
     if (!acct) {
       return { ok: false, code: "INVALID_CREDENTIALS", error: "Sai tài khoản hoặc mật khẩu." };
     }
-    if (!verifyPassword(password, acct.salt, acct.passwordHash)) {
+    if (!(await verifyPassword(password, acct.salt, acct.passwordHash))) {
       return { ok: false, code: "INVALID_CREDENTIALS", error: "Sai tài khoản hoặc mật khẩu." };
     }
     if (this.mode === "mongodb") {

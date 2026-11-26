@@ -1,9 +1,30 @@
 import assert from "assert/strict";
 import fs from "fs";
+import http from "http";
+import os from "os";
 import path from "path";
+import zlib from "zlib";
 import WebSocket from "ws";
 import { startServer } from "../src/index.js";
+import { CLIENT_BUILD, loadMapInfo, tankExternalId, tankSkills } from "../src/catalog.js";
 import { decodeFrame, encodeFrame, encodeRawFrame, FrameReader } from "../src/protocol.js";
+
+function rawHttpGet(url, headers = {}) {
+  return new Promise((resolve, reject) => {
+    const req = http.get(url, { headers }, (res) => {
+      const chunks = [];
+      res.on("data", (c) => chunks.push(c));
+      res.on("end", () => {
+        resolve({
+          status: res.statusCode,
+          headers: res.headers,
+          body: Buffer.concat(chunks),
+        });
+      });
+    });
+    req.on("error", reject);
+  });
+}
 
 function wsClient(url) {
   return new Promise((resolve, reject) => {
@@ -66,6 +87,13 @@ function wsClient(url) {
   });
 }
 
+// Verify bundled standalone catalog data
+assert.equal(tankExternalId(10000001), 123);
+assert.ok(tankSkills(10000001).length >= 4, "Starter tank should have real skills from catalog_data.json");
+const map4 = loadMapInfo(4);
+assert.equal(map4.id, 4);
+assert.ok(map4.spawns[1].length >= 1 && map4.spawns[2].length >= 1, "Map 4 should have camp spawns");
+
 // Run test with isolated local mode (no Atlas creds needed in sandbox)
 const testStore = path.resolve("data/local_store.json");
 if (fs.existsSync(testStore)) fs.rmSync(testStore);
@@ -75,32 +103,67 @@ const base = `http://127.0.0.1:${app.port}`;
 const wsBase = `ws://127.0.0.1:${app.port}`;
 
 try {
-  // 1. Health & static assets
+  // 1. Health, status page, version.txt, compression & ETag 304
   const health = await (await fetch(`${base}/health`)).json();
   assert.equal(health.ok, true);
-  const idxRes = await fetch(`${base}/godot/a/index.json`);
-  assert.equal(idxRes.status, 200);
+  assert.equal(health.dbHealthy, true);
+  assert.equal(health.build, CLIENT_BUILD);
+
+  const healthz = await fetch(`${base}/healthz`);
+  assert.equal(healthz.status, 200);
+
+  const verTxt = await (await fetch(`${base}/version.txt`)).text();
+  assert.equal(verTxt, CLIENT_BUILD);
+  const godotVerTxt = await (await fetch(`${base}/godot/version.txt`)).text();
+  assert.equal(godotVerTxt, CLIENT_BUILD);
+
+  // Fallback status dashboard at /
+  const landing = await fetch(`${base}/`);
+  assert.equal(landing.status, 200);
+  assert.ok((landing.headers.get("content-type") || "").includes("text/html"));
+  const landingHtml = await landing.text();
+  assert.ok(landingHtml.includes("Tank Ghost / BangBang Server"));
+
+  // Local static asset (gzip + ETag 304) when local server/public exists
+  if (health.assetMode === "local") {
+    const gzipResp = await rawHttpGet(`${base}/godot/a/index.json`, { "Accept-Encoding": "gzip" });
+    assert.equal(gzipResp.status, 200);
+    assert.equal(gzipResp.headers["content-encoding"], "gzip");
+    assert.ok(gzipResp.headers.etag, "Static file should return ETag");
+    const parsedIdx = JSON.parse(zlib.gunzipSync(gzipResp.body).toString("utf8"));
+    assert.ok(parsedIdx.maps && parsedIdx.tanks);
+
+    const notMod = await rawHttpGet(`${base}/godot/a/index.json`, {
+      "If-None-Match": gzipResp.headers.etag,
+    });
+    assert.equal(notMod.status, 304);
+  }
+
   const hallXml = await (await fetch(`${base}/hall-theme.xml`)).text();
   assert.ok(hallXml.includes('theme="native"'));
 
-  // 2. Register status + captcha + account creation
+  // 2. Register status + captcha + account creation + HTTPS Secure cookie detection
   const st = await (await fetch(`${base}/api/register/status`)).json();
   assert.equal(st.state, "open");
   const cap = await (await fetch(`${base}/api/register/captcha`)).json();
   assert.equal(cap.ok, true);
   assert.ok(Buffer.from(cap.png, "base64").subarray(0, 4).equals(Buffer.from([137, 80, 78, 71])));
 
-  // Direct account create via DB + auth over HTTP
   const acctRes = await app.db.createAccount("tester01", "pass1234");
   assert.equal(acctRes.ok, true);
 
   const authResp = await fetch(`${base}/api/auth`, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: {
+      "Content-Type": "application/json",
+      "X-Forwarded-Proto": "https",
+    },
     body: JSON.stringify({ username: "tester01", password: "pass1234" }),
   });
   assert.equal(authResp.status, 200);
-  assert.ok((authResp.headers.get("set-cookie") || "").includes("bb_session="));
+  const setCookie = authResp.headers.get("set-cookie") || "";
+  assert.ok(setCookie.includes("bb_session="));
+  assert.ok(setCookie.includes("Secure"), "Should mark cookie Secure behind HTTPS proxy");
   const auth = await authResp.json();
   assert.equal(auth.ok, true);
   assert.ok(auth.authToken && auth.resumeToken);
@@ -262,8 +325,106 @@ try {
   assert.equal(exitOk.decoded.value.m_nErrId, 0);
 
   gateWs.close();
-  console.log("ALL SMOKE TESTS PASSED! (HTTP + Register/Auth + WS Login/Gate + Char Create + Room + Battle Move/Fire/Exit)");
 } finally {
   await app.close();
+}
+
+// 7. Render + Cloudflare R2 CDN + Godot Web HTML5 + Precompressed Brotli + Rate Limit test
+const tmpRoot = fs.mkdtempSync(path.join(os.tmpdir(), "bb4399-test-"));
+const tmpPublic = path.join(tmpRoot, "empty_public");
+const tmpWeb = path.join(tmpRoot, "web");
+fs.mkdirSync(tmpPublic, { recursive: true });
+fs.mkdirSync(tmpWeb, { recursive: true });
+fs.writeFileSync(path.join(tmpWeb, "index.html"), "<!doctype html><html><head><title>BB</title></head><body>OK</body></html>");
+const fakeWasm = Buffer.from([0x00, 0x61, 0x73, 0x6d, 0x01, 0x00, 0x00, 0x00]);
+fs.writeFileSync(path.join(tmpWeb, "index.wasm"), fakeWasm);
+fs.writeFileSync(path.join(tmpWeb, "index.wasm.br"), zlib.brotliCompressSync(fakeWasm));
+
+const cdnApp = await startServer({
+  port: 0,
+  host: "127.0.0.1",
+  mongoUri: "",
+  silent: true,
+  publicDir: tmpPublic,
+  webDir: tmpWeb,
+  assetCdnUrl: "https://pub-demo.r2.dev",
+  coopCoepMode: "credentialless",
+});
+const cdnBase = `http://127.0.0.1:${cdnApp.port}`;
+
+try {
+  const h = await (await fetch(`${cdnBase}/health`)).json();
+  assert.equal(h.assetMode, "cdn");
+  assert.equal(h.assetCdn, "https://pub-demo.r2.dev/godot");
+  assert.equal(h.webClient, true);
+  assert.equal(h.coopCoep, "credentialless");
+
+  // Godot Web index.html with injected window.__bbAssetRoot & COOP/COEP headers
+  const webRoot = await fetch(`${cdnBase}/`);
+  assert.equal(webRoot.status, 200);
+  assert.equal(webRoot.headers.get("cross-origin-opener-policy"), "same-origin");
+  assert.equal(webRoot.headers.get("cross-origin-embedder-policy"), "credentialless");
+  const webHtml = await webRoot.text();
+  assert.ok(webHtml.includes('window.__bbAssetRoot="https://pub-demo.r2.dev/godot/a/";'));
+
+  // /godot -> 301 /godot/, /godot/ -> index.html
+  const g301 = await fetch(`${cdnBase}/godot`, { redirect: "manual" });
+  assert.equal(g301.status, 301);
+  assert.equal(g301.headers.get("location"), "/godot/");
+  const g200 = await fetch(`${cdnBase}/godot/`);
+  assert.equal(g200.status, 200);
+
+  // Precompressed .wasm.br serving
+  const wasmResp = await rawHttpGet(`${cdnBase}/index.wasm`, { "Accept-Encoding": "br" });
+  assert.equal(wasmResp.status, 200);
+  assert.equal(wasmResp.headers["content-type"], "application/wasm");
+  assert.equal(wasmResp.headers["content-encoding"], "br");
+  assert.ok(zlib.brotliDecompressSync(wasmResp.body).equals(fakeWasm));
+
+  // CDN 302 redirects for both /godot/a/*, /a/*, and /godot/av/* (immutable)
+  const r1 = await fetch(`${cdnBase}/godot/a/index.json`, { redirect: "manual" });
+  assert.equal(r1.status, 302);
+  assert.equal(r1.headers.get("location"), "https://pub-demo.r2.dev/godot/a/index.json");
+
+  const r2 = await fetch(`${cdnBase}/a/i/index.json`, { redirect: "manual" });
+  assert.equal(r2.status, 302);
+  assert.equal(r2.headers.get("location"), "https://pub-demo.r2.dev/godot/a/i/index.json");
+
+  const r3 = await fetch(`${cdnBase}/godot/av/1234/tank.webp`, { redirect: "manual" });
+  assert.equal(r3.status, 302);
+  assert.equal(r3.headers.get("location"), "https://pub-demo.r2.dev/godot/av/1234/tank.webp");
+  assert.ok((r3.headers.get("cache-control") || "").includes("immutable"));
+
+  // /godot/pcdl.json auto-enables R2 mirror for native PC/Android/iOS clients
+  const pcdl = await (await fetch(`${cdnBase}/godot/pcdl.json`)).json();
+  assert.equal(pcdl.on, true);
+  assert.equal(pcdl.av, true);
+  assert.equal(pcdl.a, true);
+  assert.deepEqual(pcdl.mirrors, ["https://pub-demo.r2.dev"]);
+
+  // Rate limit check on /api/auth (31st request from same IP -> 429)
+  let got429 = false;
+  for (let i = 0; i < 32; i++) {
+    const res = await fetch(`${cdnBase}/api/auth`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-Forwarded-For": "203.0.113.9",
+      },
+      body: JSON.stringify({ username: "nobody", password: "wrong" }),
+    });
+    if (res.status === 429) {
+      got429 = true;
+      break;
+    }
+  }
+  assert.equal(got429, true, "Rate limiter should trigger 429 after 30 auth attempts/min");
+
+  console.log(
+    "ALL SMOKE TESTS PASSED! (Standalone Catalog + HTTP/ETag/Gzip + Auth/Register + WS Login/Gate + Battle + Render R2 CDN + Godot Web HTML5 + Brotli + RateLimit)"
+  );
+} finally {
+  await cdnApp.close();
+  fs.rmSync(tmpRoot, { recursive: true, force: true });
   if (fs.existsSync(testStore)) fs.rmSync(testStore);
 }

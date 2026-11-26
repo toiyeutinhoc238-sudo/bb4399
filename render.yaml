@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: bb4399-server
+    runtime: node
+    region: singapore
+    plan: free
+    rootDir: server
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DB_NAME
+        value: bangbang
+      - key: MONGODB_REQUIRED
+        value: "true"
+      - key: MONGODB_URI
+        sync: false
+      - key: ASSET_CDN_URL
+        sync: false
+      - key: COOP_COEP_MODE
+        value: "off"
+      - key: WS_HEARTBEAT_MS
+        value: "25000"
+      - key: SESSION_SECRET
+        generateValue: true

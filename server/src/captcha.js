@@ -118,6 +118,10 @@ export class CaptchaStore {
     for (const [k, v] of this.items) {
       if (v.expiresAt <= now) this.items.delete(k);
     }
+    if (this.items.size >= 2000) {
+      const oldestKey = this.items.keys().next().value;
+      if (oldestKey !== undefined) this.items.delete(oldestKey);
+    }
     const id = crypto.randomBytes(12).toString("hex");
     const code = String(crypto.randomInt(1000, 10000));
     this.items.set(id, { code, expiresAt: now + 5 * 60 * 1000 });

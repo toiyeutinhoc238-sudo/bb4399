@@ -27,6 +27,10 @@ static func _load_override() -> ConfigFile:
 	return cfg if cfg.load(SERVER_CFG) == OK else null
 
 static func resolved_origin() -> String:
+	if OS.has_feature("web"):
+		var web_origin: String = str(JavaScriptBridge.eval("window.location.origin", true)).strip_edges()
+		if web_origin.begins_with("http://") or web_origin.begins_with("https://"):
+			return web_origin.trim_suffix("/")
 	var raw: String = str(ProjectSettings.get_setting("bangbang/android_origin", DEFAULT_ORIGIN)).strip_edges()
 	if not OS.has_feature("web"):
 		var env_origin: String = OS.get_environment("BB_ORIGIN").strip_edges()

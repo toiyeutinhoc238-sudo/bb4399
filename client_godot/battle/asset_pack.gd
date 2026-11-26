@@ -609,7 +609,7 @@ func _init() -> void :
 
 func configure(root: String = "") -> void :
 	if root.is_empty():
-		root = str(JavaScriptBridge.eval("new URL('a/', document.baseURI).href", true)) if OS.has_feature("web") else OS.get_environment("BB_ASSET_DIR")
+		root = str(JavaScriptBridge.eval("(window.__bbAssetRoot || new URL('a/', document.baseURI).href)", true)) if OS.has_feature("web") else OS.get_environment("BB_ASSET_DIR")
 		if root.is_empty() and not OS.has_feature("web"):
 			root = ClientConfig.resolved_asset_root()
 	if root.is_empty() or root == "null":

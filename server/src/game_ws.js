@@ -171,10 +171,15 @@ export class GameWorld {
 
   attachSocket(ws, role) {
     const session = new ClientSession(ws, role, this);
+    ws.isAlive = true;
+    ws.on("pong", () => {
+      ws.isAlive = true;
+    });
     // Required 2-byte server greeting before any protocol frames
     session.send(SERVER_GREETING);
 
     ws.on("message", (data) => {
+      ws.isAlive = true;
       try {
         const frames = session.reader.feed(data);
         for (const frame of frames) {

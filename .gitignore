@@ -21,6 +21,8 @@ client_godot/android/
 *.exe
 *.pck
 !client_godot/assets.sparsepck
+!server/web/*.pck
+!server/web/**/*.pck
 
 # OS & editor files
 .DS_Store
